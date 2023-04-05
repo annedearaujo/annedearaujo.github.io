@@ -1,0 +1,46 @@
+:root { 
+  --agnostic-color: #7f7f7f26;
+  --black: #000000;
+  --black-2: #000000de;
+  --black-3: #00000099;
+  --black-4: #00000061;
+  --cultured-pearl: #f5f5f5;
+  --licorice: #151515;
+  --mercury: #e6e6e6;
+  --white: #ffffff;
+ 
+  --font-size-m: 12px;
+ 
+  --font-family-epilogue: "Epilogue", Helvetica;
+}
+.epilogue-normal-black-12px {
+  color: var(--black-2);
+  font-family: var(--font-family-epilogue);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.epilogue-normal-black-12px-2 {
+  color: var(--black-3);
+  font-family: var(--font-family-epilogue);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.epilogue-normal-black-12px-3 {
+  color: var(--black-4);
+  font-family: var(--font-family-epilogue);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.epilogue-normal-black-12px-4 {
+  color: var(--black);
+  font-family: var(--font-family-epilogue);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
