@@ -326,10 +326,20 @@
                 </div>
             </div>
         </div>
+    
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.3/dist/sweetalert2.all.min.js"></script>
         <script>
             function redirectPage() {
-                window.location.href="https://ennaraujo.github.io/home/submitted";
-            }
+                if (document.getElementsByName("nome").value != null && document.getElementsByName("e-mail").value != null && document.getElementsByName("digitesuamensagem").value != null){
+                    window.location.href="https://ennaraujo.github.io/home/submitted";
+                }else{
+                        Swal.fire(
+                            'Ops!',
+                            'Preencha todos os campos para enviar',
+                            'error'
+                            )
+                    }
+                }
         </script>
 
     <input type="hidden" id="anPageName2" name="page" value="1440px" />
@@ -647,11 +657,7 @@
         <script>
             function redirectPage() {
                 if (document.getElementsByName("nome").value != null && document.getElementsByName("e-mail").value != null && document.getElementsByName("digitesuamensagem").value != null){
-                        Swal.fire(
-                            'obrigada! 🫀',
-                            'responderei muito em breve',
-                            'success'
-                            )
+                    window.location.href="https://ennaraujo.github.io/home/submitted";
                 }else{
                         Swal.fire(
                             'Ops!',
