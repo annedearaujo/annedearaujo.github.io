@@ -339,13 +339,9 @@
   display: flex;
   flex-direction: column;
   gap: 13px;
-  height: auto;
   min-width: 938px;
-  mix-blend-mode: normal;
-  overflow-x: hidden;
   padding: 49px 166px;
   position: relative;
-  top: 0px;
 }
 
 .submitted-1440px .navbar-desktop {
