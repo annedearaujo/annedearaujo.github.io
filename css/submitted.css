@@ -7,14 +7,9 @@
   display: flex;
   flex-direction: column;
   gap: 15px;
-  height: auto;
   min-width: 330px;
-  mix-blend-mode: normal;
-  overflow: hidden;
-  overflow-x: hidden;
   padding: 28px 27px;
   position: relative;
-  top: 0px;
 }
 
 .submitted-375px .navbar-mobile {
