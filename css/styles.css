@@ -2,6 +2,8 @@
 
 @import url("https://fonts.googleapis.com/css?family=Epilogue:400");
 
+@import url('https://cdn.jsdelivr.net/npm/sweetalert2@11.7.3/dist/sweetalert2.min.css');
+
 /* css agora */
 
 .screen * {
@@ -1121,7 +1123,7 @@ input:focus {
     letter-spacing: 0.40px;
     line-height: 16px;
     margin-top: -1.00px;
-    min-width: 35px;
+    min-width: 220px;
     mix-blend-mode: normal;
     padding: 0;
     position: relative;
@@ -1165,7 +1167,7 @@ input:focus {
     letter-spacing: 0.40px;
     line-height: 16px;
     margin-top: -1.00px;
-    min-width: 40px;
+    min-width: 220px;
     mix-blend-mode: normal;
     padding: 0;
     position: relative;
@@ -1205,7 +1207,7 @@ input:focus {
 .x1440px .input-txt-desktop {
     background-color: transparent;
     border: 0;
-    height: 128px;
+    height: 170px;
     letter-spacing: 0.40px;
     line-height: 16px;
     min-width: 134px;
@@ -1241,6 +1243,7 @@ input:focus {
     cursor: pointer;
     letter-spacing: 0.40px;
     line-height: 16px;
+    height: 218px;
     mix-blend-mode: normal;
     position: relative;
     text-align: left;
