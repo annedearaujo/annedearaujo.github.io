@@ -647,7 +647,11 @@
         <script>
             function redirectPage() {
                 if (document.getElementsByName("nome").value != null && document.getElementsByName("e-mail").value != null && document.getElementsByName("digitesuamensagem").value != null){
-                window.location.href="https://ennaraujo.github.io/home/submitted";
+                        Swal.fire(
+                            'obrigada! 🫀',
+                            'responderei muito em breve',
+                            'success'
+                            )
                 }else{
                         Swal.fire(
                             'Ops!',
