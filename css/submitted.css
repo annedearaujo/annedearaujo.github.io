@@ -7,9 +7,14 @@
   display: flex;
   flex-direction: column;
   gap: 15px;
+  height: auto;
   min-width: 330px;
+  mix-blend-mode: normal;
+  overflow: hidden;
+  overflow-x: hidden;
   padding: 28px 27px;
   position: relative;
+  top: 0px;
 }
 
 .submitted-375px .navbar-mobile {
@@ -235,10 +240,9 @@
   border-radius: 24px;
   display: flex;
   gap: 32px;
-  height: 703px;
   justify-content: center;
   mix-blend-mode: normal;
-  padding: 24px 0px;
+  padding: 24px;
   position: relative;
   width: 187px;
 }
@@ -247,6 +251,7 @@
   align-items: flex-start;
   background-color: transparent;
   display: flex;
+  flex: 1;
   flex-direction: column;
   gap: 8px;
   height: auto;
@@ -291,11 +296,12 @@
   background-color: transparent;
   letter-spacing: 0.40px;
   line-height: 16px;
+  margin-top: -1.00px;
   mix-blend-mode: normal;
   position: relative;
   text-align: left;
   white-space: nowrap;
-  width: 140px;
+  width: auto;
 }
 
 .submitted-375px .contact-desc-mobile {
@@ -305,7 +311,7 @@
   mix-blend-mode: normal;
   position: relative;
   text-align: left;
-  width: 140px;
+  width: auto;
 }
 
 .submitted-375px .button-voltar {
@@ -332,10 +338,14 @@
   border: 1px none;
   display: flex;
   flex-direction: column;
-  gap: 15px;
-  min-width: 330px;
-  padding: 28px 27px;
+  gap: 13px;
+  height: auto;
+  min-width: 938px;
+  mix-blend-mode: normal;
+  overflow-x: hidden;
+  padding: 49px 166px;
   position: relative;
+  top: 0px;
 }
 
 .submitted-1440px .navbar-desktop {
