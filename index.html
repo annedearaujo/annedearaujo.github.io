@@ -278,12 +278,12 @@
                         <form name="formcontato" action="https://formspree.io/f/xknaqnqb" method="POST" style="display: flex; height: 380px; flex-direction: column; justify-content: space-evenly; align-items: flex-start;">
                             <div class="form-nome-base-mobile form">
                                     <div class="form-nome-mobile x02-controls-email-input">
-                                        <input class="input-name-mobile epilogue-normal-black-12px-3" name="nome" placeholder="nome" type="text" required>
+                                        <input class="input-name-mobile epilogue-normal-black-12px-3" name="nome" placeholder="seu nome" type="text" required>
                                     </div>
                             </div>
                             <div class="form-email-base-mobile form">
                                     <div class="form-email-mobile x02-controls-email-input">
-                                        <input class="input-email-mobile epilogue-normal-black-12px-3" name="e-mail" placeholder="e-mail" type="email" required>
+                                        <input class="input-email-mobile epilogue-normal-black-12px-3" name="e-mail" placeholder="seu e-mail" type="email" required>
                                     </div>
                             </div>
                             <div class="form-txt-base-mobile form">
@@ -583,12 +583,12 @@
                                 <form name="formcontato" action="https://formspree.io/f/xknaqnqb" method="POST" style="display: flex; height: 330px; flex-direction: column; justify-content: space-evenly; align-items: flex-start;">
                                     <div class="form-nome-desktop">
                                         <div class="form-nome-base-desktop">
-                                            <input class="input-nome-desktop epilogue-normal-black-12px-3" name="nome" placeholder="nome" type="text" required>
+                                            <input class="input-nome-desktop epilogue-normal-black-12px-3" name="nome" placeholder="seu nome" type="text" required>
                                         </div>
                                     </div>
                                     <div class="form-email-desktop">
                                         <div class="form-email-base-desktop">
-                                            <input class="input-email-desktop epilogue-normal-black-12px-3" name="e-mail" placeholder="e-mail" type="email" required>
+                                            <input class="input-email-desktop epilogue-normal-black-12px-3" name="e-mail" placeholder="seu e-mail" type="email" required>
                                         </div>
                                     </div>
                                     <div class="form-txt-desktop">
@@ -643,10 +643,19 @@
             </div>
         </div>
 
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.3/dist/sweetalert2.all.min.js"></script>
         <script>
             function redirectPage() {
+                if (document.getElementsByName("nome").value != null && document.getElementsByName("e-mail").value != null && document.getElementsByName("digitesuamensagem").value != null){
                 window.location.href="https://ennaraujo.github.io/home/submitted";
-            }
+                }else{
+                        Swal.fire(
+                            'Ops!',
+                            'Preencha todos os campos para enviar',
+                            'error'
+                            )
+                    }
+                }
         </script>
 
 </body>
