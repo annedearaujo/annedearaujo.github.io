@@ -341,10 +341,18 @@
 
 .submitted-1440px .navbar-desktop {
   align-items: flex-start;
-  background-color: transparent;
   display: flex;
   gap: 16px;
-  height: auto;
+  position: relative;
+  width: fit-content;
+}
+
+.submitted-1440px .buttons-desktop {
+  align-items: center;
+  border-radius: 12px;
+  display: flex;
+  overflow: hidden;
+  padding: 12px 24px;
   position: relative;
   width: fit-content;
 }
@@ -357,20 +365,7 @@
   gap: 5px;
   height: auto;
   position: relative;
-  width: 77px;
-}
-
-.submitted-1440px .button-name-desktop {
-  align-items: center;
-  background-color: transparent;
-  border-radius: 12px;
-  display: flex;
-  height: auto;
-  mix-blend-mode: normal;
-  overflow: hidden;
-  padding: 12px 0px;
-  position: relative;
-  width: 75px;
+  width: fit-content;
 }
 
 .submitted-1440px .name-desktop {
@@ -386,8 +381,8 @@
 }
 
 .submitted-1440px .highlighter-LYPa7S {
-  margin-bottom: -1831.00px;
-  margin-left: -696.50px;
+  margin-bottom: -1810.00px;
+  margin-left: -1415.00px;
 }
 
 .submitted-1440px .navbar-exp-desktop::-webkit-scrollbar {
@@ -408,7 +403,7 @@
   pointer-events: auto;
   position: relative;
   transition: all 0.2s ease;
-  width: 45px;
+  width: fit-content;
 }
 
 .submitted-1440px .navbar-exp-desktop:hover {
@@ -441,7 +436,7 @@
   pointer-events: auto;
   position: relative;
   transition: all 0.2s ease;
-  width: 54px;
+  width: fit-content;
 }
 
 .submitted-1440px .navbar-proj-desktop:hover {
@@ -464,8 +459,7 @@
 }
 
 .submitted-1440px .highlighter-nGlkQw {
-  margin-bottom: -1831.00px;
-  margin-left: -862.00px;
+  margin-bottom: -1810.00px;
 }
 
 .submitted-1440px .navbar-contact-desktop {
@@ -479,24 +473,11 @@
   pointer-events: auto;
   position: relative;
   transition: all 0.2s ease;
-  width: 52px;
+  width: fit-content;
 }
 
 .submitted-1440px .navbar-contact-desktop:hover {
   transform: translate(0, -5px);
-}
-
-.submitted-1440px .buttons-desktop {
-  align-items: center;
-  background-color: transparent;
-  border-radius: 12px;
-  display: flex;
-  height: auto;
-  mix-blend-mode: normal;
-  overflow: hidden;
-  padding: 12px 24px 12px 0px;
-  position: relative;
-  width: 51px;
 }
 
 .submitted-1440px .contact-desktop {
@@ -515,16 +496,13 @@
 }
 
 .submitted-1440px .highlighter-xsmZJb {
-  margin-bottom: -1831.00px;
-  margin-left: -933.00px;
+  margin-bottom: -1810.00px;
+  margin-left: -86.00px;
 }
 
 .submitted-1440px .contact-base-desktop {
   align-items: flex-start;
-  background-color: transparent;
   display: flex;
-  height: auto;
-  mix-blend-mode: normal;
   padding: 50px 0px;
   position: relative;
   width: fit-content;
@@ -536,26 +514,23 @@
   border-radius: 24px;
   display: flex;
   gap: 32px;
-  height: 703px;
   justify-content: center;
   mix-blend-mode: normal;
-  padding: 24px 0px;
+  padding: 24px;
   position: relative;
-  width: 187px;
+  width: 606px;
 }
 
-.submitted-1440px .corpoemail-X2E5rV {
+.submitted-1440px .corpoemail-xlmxba {
   align-items: flex-start;
-  background-color: transparent;
   display: flex;
+  flex: 1;
   flex-direction: column;
   gap: 8px;
-  height: auto;
   position: relative;
-  width: fit-content;
 }
 
-.submitted-1440px .img-placeholder-XthDoF {
+.submitted-1440px .img-placeholder-xlmxba {
   -webkit-backdrop-filter: blur(46.55172348022461px) brightness(100%);
   backdrop-filter: blur(46.55172348022461px) brightness(100%);
   background-color: var(--agnostic-color);
@@ -567,7 +542,7 @@
   position: relative;
 }
 
-.submitted-1440px .x03-emoji-ooPmxv {
+.submitted-1440px .emoji-box-base-desktop {
   background-color: transparent;
   height: 27px;
   left: 56px;
@@ -577,7 +552,7 @@
   width: 27px;
 }
 
-.submitted-1440px .emojicaixa-xyAkyM {
+.submitted-1440px .emoji-box-desktop {
   background-color: transparent;
   height: 27px;
   left: -0px;
@@ -589,24 +564,20 @@
 }
 
 .submitted-1440px .contact-title-desktop {
-  background-color: transparent;
+  align-self: stretch;
   letter-spacing: 0.40px;
   line-height: 16px;
-  mix-blend-mode: normal;
+  margin-top: -1.00px;
   position: relative;
-  text-align: left;
   white-space: nowrap;
-  width: 140px;
 }
 
 .submitted-1440px .contact-desc-desktop {
-  background-color: transparent;
+  align-self: stretch;
   letter-spacing: 0.40px;
   line-height: 16px;
   mix-blend-mode: normal;
   position: relative;
-  text-align: left;
-  width: 140px;
 }
 
 .submitted-1440px .button-voltar {
