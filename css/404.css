@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css?family=Epilogue:400");
+:root {
+--agnostic-color: #7f7f7f26;
+--licorice: #151515;
+--white: #fff;
+--font-size-m: 16px;
+--font-family-epilogue: "Epilogue", Helvetica;
+}
+
+html,
+body {
+  font-family: var(--font-family-epilogue);
+  height: 100%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-family-epilogue);
+  color: var(--licorice);
+  font-size: 1em;
+}
+
+button {
+  font-family: var(--font-family-epilogue);
+}
+
+ul {
+  list-style-type: none;
+  -webkit-padding-start: 35px;
+          padding-inline-start: 35px;
+}
+
+svg {
+  width: 100%;
+  visibility: hidden;
+}
+
+h1 {
+  font-size: 7.5em;
+  margin: 15px 0px;
+  font-weight: bold;
+  background-color: #dcdcdc;
+  border-radius: 8px;
+  padding: 24px;
+}
+
+h2 {
+  font-weight: bold;
+  background-color: #dcdcdc;
+  border-radius: 8px;
+  padding: 24px;
+}
+
+.btn {
+  z-index: 1;
+  overflow: hidden;
+  background: transparent;
+  position: relative;
+  padding: 8px 50px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1em;
+  letter-spacing: 2px;
+  transition: 0.2s ease;
+  font-weight: bold;
+  margin: 5px 0px;
+}
+.btn.green {
+  border: 1px solid;
+  border-color: #e6e6e6;
+  color: var(--licorice);
+  background-color: var(--white);
+}
+
+.btn.green:hover {
+  transition: 0.2s ease;
+  transform: translate(0, -5px);
+}
+.btn.green:hover:before {
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    display: block;
+  }
+
+  .container {
+    margin-top: 70px;
+    margin-bottom: 70px;
+    background-color: var(--agnostic-color);
+  }
+}
