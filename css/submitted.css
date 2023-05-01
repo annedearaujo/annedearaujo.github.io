@@ -615,3 +615,15 @@
 .submitted-1440px .button-voltar:hover {
   transform: translate(0, -5px);
 }
+
+@media screen and (max-width: 937px) {
+  .screen.submitted-1440px {
+      display: none;
+  }
+}
+
+@media screen and (min-width: 938px) {
+  .screen.submitted-375px {
+      display: none;
+  }
+}
