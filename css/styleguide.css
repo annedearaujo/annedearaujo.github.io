@@ -9,11 +9,11 @@
   --mercury: #e6e6e6;
   --white: #ffffff;
  
-  --font-size-m: 12px;
+  --font-size-m: 16px;
  
   --font-family-epilogue: "Epilogue", Helvetica;
 }
-.epilogue-normal-black-12px {
+.epilogue-normal-black-16px {
   color: var(--black-2);
   font-family: var(--font-family-epilogue);
   font-size: var(--font-size-m);
@@ -21,7 +21,7 @@
   font-weight: 400;
 }
 
-.epilogue-normal-black-12px-2 {
+.epilogue-normal-black-16px-2 {
   color: var(--black-3);
   font-family: var(--font-family-epilogue);
   font-size: var(--font-size-m);
@@ -29,7 +29,7 @@
   font-weight: 400;
 }
 
-.epilogue-normal-black-12px-3 {
+.epilogue-normal-black-16px-3 {
   color: var(--black-4);
   font-family: var(--font-family-epilogue);
   font-size: var(--font-size-m);
@@ -37,7 +37,7 @@
   font-weight: 400;
 }
 
-.epilogue-normal-black-12px-4 {
+.epilogue-normal-black-16px-4 {
   color: var(--black);
   font-family: var(--font-family-epilogue);
   font-size: var(--font-size-m);
