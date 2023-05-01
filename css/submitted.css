@@ -220,7 +220,6 @@
 
 .submitted-375px .contact-base-mobile {
   align-items: flex-start;
-  background-color: transparent;
   display: flex;
   flex-direction: column;
   height: auto;
@@ -390,7 +389,7 @@
   background-color: transparent;
   letter-spacing: 0.40px;
   line-height: 16px;
-  margin-top: -1.00px;
+  margin-top: 11px;
   mix-blend-mode: normal;
   position: relative;
   text-align: left;
