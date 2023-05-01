@@ -222,6 +222,7 @@
   align-items: flex-start;
   background-color: transparent;
   display: flex;
+  flex-direction: column;
   height: auto;
   mix-blend-mode: normal;
   padding: 50px 0px;
