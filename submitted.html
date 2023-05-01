@@ -1,110 +1,614 @@
-<!DOCTYPE html>
-<html>
+/* screen - submitted-375px */
 
-<head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
-    <link rel="shortcut icon" type="image/png" href="img/favico.ico" />
-    <link rel="stylesheet" type="text/css" href="css/submitted.css" />
-    <link rel="stylesheet" type="text/css" href="css/styleguide.css" />
-    <link rel="stylesheet" type="text/css" href="css/globals.css" />
-    <Title>Anne Araújo 📎 | Contato enviado</Title>
-</head>
+.submitted-375px {
+  align-items: center;
+  background-color: var(--white);
+  border: 1px none;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  min-width: 330px;
+  padding: 28px 27px;
+  position: relative;
+}
 
-<body style="margin: 0; background: #ffffff">
-    <input type="hidden" id="submitted-375px" name="page" value="submitted-375px" />
-    <div class="submitted-375px screen">
-        <div class="navbar-mobile">
-            <div class="navbar-name-mobile">
-                <div class="button-name-mobile">
-                    <div class="name-mobile epilogue-normal-black-16px-2">anne araújo</div>
-                </div>
-            </div>
-            <a href="https://ennaraujo.github.io/home/#exp">
-                <div class="navbar-exp-mobile smart-layers-pointers">
-                    <div class="button-exp-mobile">
-                        <div class="exp-mobile smart-layers-pointers epilogue-normal-black-16px-2">sobre</div>
-                    </div>
-                </div>
-            </a><a href="https://ennaraujo.github.io/home/#proj">
-                <div class="navbar-proj-mobile smart-layers-pointers">
-                    <div class="button-proj-mobile">
-                        <div class="proj-mobile epilogue-normal-black-16px-2">projetos</div>
-                    </div>
-                </div>
-            </a><a href="https://ennaraujo.github.io/home/#ctt">
-                <div class="navbar-mobile-contact smart-layers-pointers">
-                    <div class="button-mobile-contact">
-                        <div class="contact-mobile epilogue-normal-black-16px-2">contato</div>
-                    </div>
-                </div>
-            </a>
-        </div>
-        <div class="contact-base-mobile" id="ctt">
-            <div class="cbase-mobile base-list-1">
-                <div class="corpoemail-X2E5rV">
-                    <div class="img-placeholder-XthDoF">
-                        <div class="x03-emoji-ooPmxv">
-                            <img class="emojicaixa-xyAkyM" src="img/emojicaixa@2x.png" alt="emojicaixa">
-                        </div>
-                    </div>
-                    <div class="contact-intro-mobile epilogue-normal-black-16px">muito obrigada! 🫀</div>
-                    <p class="contact-desc-mobile epilogue-normal-black-16px-2">te retornarei em breve.</p>
-                </div>
-            </div>
-        </div>
-        <a href="https://ennaraujo.github.io/home/" target="_blank">
-            <div class="button-voltar valign-text-middle epilogue-normal-black-16px-4">volte para o início</div>
-        </a>
-    </div>
-    <input type="hidden" id="submitted-1440px" name="page" value="submitted-1440px" />
-    <div class="submitted-1440px screen">
-        <div class="navbar-desktop">
-            <div class="navbar-name-desktop">
-                <div class="button-name-desktop">
-                    <div class="name-desktop epilogue-normal-black-16px-2">anne araújo</div>
-                </div>
-            </div>
-        <a href="https://ennaraujo.github.io/home/#experience">
-            <div class="navbar-exp-desktop smart-layers-pointers">
-                <div class="buttons-desktop">
-                    <div class="exp-desktop smart-layers-pointers epilogue-normal-black-16px-2">sobre</div>
-                </div>
-            </div>
-        </a>
-        <a href="https://ennaraujo.github.io/home/#projects">
-            <div class="navbar-proj-desktop smart-layers-pointers">
-                <div class="buttons-desktop">
-                    <div class="proj-desktop smart-layers-pointers epilogue-normal-black-16px-2">projetos</div>
-                </div>
-            </div>
-        </a>
-        <a href="https://ennaraujo.github.io/home/#contact">
-            <div class="navbar-contact-desktop smart-layers-pointers">
-                <div class="buttons-desktop">
-                    <div class="contact-desktop smart-layers-pointers epilogue-normal-black-16px-2">contato</div>
-                </div>
-            </div>
-        </a>
-        </div>
-        <div class="contact-base-desktop" id="contact">
-            <div class="cbase-desktop">
-                <div class="corpoemail-xlmxba">
-                        <div class="contact-title-desktop epilogue-normal-black-16px">muito obrigada! 🫀</div>
-                        <p class="contact-desc-desktop epilogue-normal-black-16px-2">te retornarei em breve.
-                        </p>
-                </div>
-                <div class="img-placeholder-xlmxba">
-                    <div class="emoji-box-base-desktop">
-                        <img class="emoji-box-desktop" src="img/emojicaixa@2x.png" alt="emojicaixa">
-                    </div>
-                </div>
-            </div>
-        </div>
-        <a href="https://ennaraujo.github.io/home/" target="_blank">
-            <div class="button-voltar valign-text-middle epilogue-normal-black-16px-4">volte para o início</div>
-        </a>
-    </div>
-</body>
+.submitted-375px .navbar-mobile {
+  align-items: flex-start;
+  background-color: transparent;
+  display: flex;
+  gap: 16px;
+  height: auto;
+  position: relative;
+  width: fit-content;
+}
 
-</html>
+.submitted-375px .navbar-name-mobile {
+  align-items: center;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  height: auto;
+  position: relative;
+  width: auto;
+}
+
+.submitted-375px .button-name-mobile {
+  align-items: center;
+  background-color: transparent;
+  border-radius: 12px;
+  display: flex;
+  height: auto;
+  mix-blend-mode: normal;
+  overflow: hidden;
+  padding: 12px 0px;
+  position: relative;
+  width: auto;
+}
+
+.submitted-375px .name-mobile {
+  background-color: transparent;
+  letter-spacing: 0.40px;
+  line-height: 16px;
+  margin-top: -1.00px;
+  mix-blend-mode: normal;
+  position: relative;
+  text-align: left;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.submitted-375px .highlighter-LYPa7S {
+  margin-bottom: -1831.00px;
+  margin-left: -696.50px;
+}
+
+.submitted-375px .navbar-exp-mobile::-webkit-scrollbar {
+  display: none;
+  width: 0;
+}
+
+.submitted-375px .navbar-exp-mobile {
+  align-items: center;
+  background-color: transparent;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  gap: 5px;
+  height: auto;
+  overflow-y: scroll;
+  pointer-events: auto;
+  position: relative;
+  transition: all 0.2s ease;
+  width: auto;
+}
+
+.submitted-375px .navbar-exp-mobile:hover {
+  transform: translate(0, -5px);
+}
+
+.submitted-375px .button-exp-mobile {
+  align-items: center;
+  background-color: transparent;
+  border-radius: 12px;
+  display: flex;
+  height: auto;
+  mix-blend-mode: normal;
+  overflow: hidden;
+  padding: 12px 0px;
+  position: relative;
+  width: auto;
+}
+
+.submitted-375px .exp-mobile {
+  background-color: transparent;
+  cursor: pointer;
+  letter-spacing: 0.40px;
+  line-height: 16px;
+  margin-top: -1.00px;
+  mix-blend-mode: normal;
+  pointer-events: auto;
+  position: relative;
+  text-align: left;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.submitted-375px .navbar-proj-mobile {
+  align-items: center;
+  background-color: transparent;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  height: auto;
+  pointer-events: auto;
+  position: relative;
+  transition: all 0.2s ease;
+  width: auto;
+}
+
+.submitted-375px .navbar-proj-mobile:hover {
+  transform: translate(0, -5px);
+}
+
+.submitted-375px .button-proj-mobile {
+  align-items: center;
+  background-color: transparent;
+  border-radius: 12px;
+  display: flex;
+  height: auto;
+  mix-blend-mode: normal;
+  overflow: hidden;
+  padding: 12px 0px;
+  position: relative;
+  width: fit-content;
+}
+
+.submitted-375px .proj-mobile {
+  background-color: transparent;
+  cursor: pointer;
+  letter-spacing: 0.40px;
+  line-height: 16px;
+  margin-top: -1.00px;
+  mix-blend-mode: normal;
+  pointer-events: auto;
+  position: relative;
+  text-align: left;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.submitted-375px .highlighter-nGlkQw {
+  margin-bottom: -1831.00px;
+  margin-left: -862.00px;
+}
+
+.submitted-375px .navbar-mobile-contact {
+  align-items: center;
+  background-color: transparent;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  height: auto;
+  pointer-events: auto;
+  position: relative;
+  transition: all 0.2s ease;
+  width: auto;
+}
+
+.submitted-375px .navbar-mobile-contact:hover {
+  transform: translate(0, -5px);
+}
+
+.submitted-375px .button-mobile-contact {
+  align-items: center;
+  background-color: transparent;
+  border-radius: 12px;
+  display: flex;
+  height: auto;
+  mix-blend-mode: normal;
+  overflow: hidden;
+  padding: 12px 24px 12px 0px;
+  position: relative;
+  width: auto;
+}
+
+.submitted-375px .contact-mobile {
+  background-color: transparent;
+  cursor: pointer;
+  letter-spacing: 0.40px;
+  line-height: 16px;
+  margin-top: -1.00px;
+  mix-blend-mode: normal;
+  pointer-events: auto;
+  position: relative;
+  text-align: left;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.submitted-375px .highlighter-xsmZJb {
+  margin-bottom: -1831.00px;
+  margin-left: -933.00px;
+}
+
+.submitted-375px .contact-base-mobile {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  mix-blend-mode: normal;
+  padding: 50px 0px;
+  position: relative;
+  width: fit-content;
+}
+
+.submitted-375px .cbase-mobile {
+  align-items: flex-start;
+  background-color: var(--agnostic-color);
+  border-radius: 24px;
+  display: flex;
+  gap: 32px;
+  justify-content: center;
+  mix-blend-mode: normal;
+  padding: 24px;
+  position: relative;
+  width: 187px;
+}
+
+.submitted-375px .corpoemail-X2E5rV {
+  align-items: flex-start;
+  background-color: transparent;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 8px;
+  height: auto;
+  position: relative;
+  width: fit-content;
+}
+
+.submitted-375px .img-placeholder-XthDoF {
+  -webkit-backdrop-filter: blur(46.55172348022461px) brightness(100%);
+  backdrop-filter: blur(46.55172348022461px) brightness(100%);
+  background-color: var(--agnostic-color);
+  border-radius: 13px;
+  height: 40px;
+  min-width: 140px;
+  mix-blend-mode: normal;
+  overflow: hidden;
+  position: relative;
+}
+
+.submitted-375px .x03-emoji-ooPmxv {
+  background-color: transparent;
+  height: 27px;
+  left: 56px;
+  mix-blend-mode: normal;
+  position: relative;
+  top: 6px;
+  width: 27px;
+}
+
+.submitted-375px .emojicaixa-xyAkyM {
+  background-color: transparent;
+  height: 27px;
+  left: -0px;
+  mix-blend-mode: normal;
+  object-fit: cover;
+  position: absolute;
+  top: -0px;
+  width: 27px;
+}
+
+.submitted-375px .contact-intro-mobile {
+  background-color: transparent;
+  letter-spacing: 0.40px;
+  line-height: 16px;
+  margin-top: -1.00px;
+  mix-blend-mode: normal;
+  position: relative;
+  text-align: left;
+  white-space: nowrap;
+  width: auto;
+}
+
+.submitted-375px .contact-desc-mobile {
+  background-color: transparent;
+  letter-spacing: 0.40px;
+  line-height: 16px;
+  mix-blend-mode: normal;
+  position: relative;
+  text-align: left;
+  width: auto;
+}
+
+.submitted-375px .button-voltar {
+  cursor: pointer;
+  letter-spacing: 0.40px;
+  line-height: 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: underline;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.submitted-375px .button-voltar:hover {
+  transform: translate(0, -5px);
+}
+
+/* screen - submitted-1440px */
+
+.submitted-1440px {
+  align-items: center;
+  background-color: var(--white);
+  border: 1px none;
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+  height: auto;
+  left: 0px;
+  min-width: 938px;
+  mix-blend-mode: normal;
+  padding: 49px 166px;
+  position: relative;
+  top: 0px;
+}
+
+.submitted-1440px .navbar-desktop {
+  align-items: flex-start;
+  display: flex;
+  gap: 16px;
+  position: relative;
+  width: fit-content;
+}
+
+.submitted-1440px .buttons-desktop {
+  align-items: center;
+  border-radius: 12px;
+  display: flex;
+  overflow: hidden;
+  padding: 12px 24px;
+  position: relative;
+  width: fit-content;
+}
+
+.submitted-1440px .navbar-name-desktop {
+  align-items: center;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  height: auto;
+  position: relative;
+  width: fit-content;
+}
+
+.x1440px .button-name-desktop {
+  align-items: center;
+  background-color: transparent;
+  border-radius: 12px;
+  display: flex;
+  height: auto;
+  mix-blend-mode: normal;
+  overflow: hidden;
+  padding: 12px 24px;
+  position: relative;
+  width: fit-content;
+}
+
+.submitted-1440px .name-desktop {
+  background-color: transparent;
+  letter-spacing: 0.40px;
+  line-height: 16px;
+  margin-top: 11px;
+  mix-blend-mode: normal;
+  position: relative;
+  text-align: left;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.submitted-1440px .highlighter-LYPa7S {
+  margin-bottom: -1810.00px;
+  margin-left: -167.00px;
+}
+
+.submitted-1440px .navbar-exp-desktop::-webkit-scrollbar {
+  display: none;
+  width: 0;
+}
+
+.submitted-1440px .navbar-exp-desktop {
+  align-items: center;
+  background-color: transparent;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  gap: 5px;
+  height: auto;
+  overflow-y: scroll;
+  pointer-events: auto;
+  position: relative;
+  transition: all 0.2s ease;
+  width: fit-content;
+}
+
+.submitted-1440px .navbar-exp-desktop:hover {
+  transform: translate(0, -5px);
+}
+
+.submitted-1440px .exp-desktop {
+  background-color: transparent;
+  cursor: pointer;
+  letter-spacing: 0.40px;
+  line-height: 16px;
+  margin-top: -1.00px;
+  mix-blend-mode: normal;
+  pointer-events: auto;
+  position: relative;
+  text-align: left;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.submitted-1440px .navbar-proj-desktop {
+  align-items: center;
+  background-color: transparent;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  height: auto;
+  pointer-events: auto;
+  position: relative;
+  transition: all 0.2s ease;
+  width: fit-content;
+}
+
+.submitted-1440px .navbar-proj-desktop:hover {
+  transform: translate(0, -5px);
+}
+
+.submitted-1440px .proj-desktop {
+  background-color: transparent;
+  cursor: pointer;
+  letter-spacing: 0.40px;
+  line-height: 16px;
+  margin-top: -1.00px;
+  mix-blend-mode: normal;
+  pointer-events: auto;
+  position: relative;
+  text-align: left;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.submitted-1440px .highlighter-nGlkQw {
+  margin-bottom: -1810.00px;
+}
+
+.submitted-1440px .navbar-contact-desktop {
+  align-items: center;
+  background-color: transparent;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  height: auto;
+  pointer-events: auto;
+  position: relative;
+  transition: all 0.2s ease;
+  width: fit-content;
+}
+
+.submitted-1440px .navbar-contact-desktop:hover {
+  transform: translate(0, -5px);
+}
+
+.submitted-1440px .contact-desktop {
+  background-color: transparent;
+  cursor: pointer;
+  letter-spacing: 0.40px;
+  line-height: 16px;
+  margin-top: -1.00px;
+  mix-blend-mode: normal;
+  pointer-events: auto;
+  position: relative;
+  text-align: left;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.submitted-1440px .highlighter-xsmZJb {
+  margin-bottom: -1810.00px;
+  margin-left: -86.00px;
+}
+
+.submitted-1440px .contact-base-desktop {
+  align-items: flex-start;
+  display: flex;
+  padding: 50px 0px;
+  position: relative;
+  width: fit-content;
+}
+
+.submitted-1440px .cbase-desktop {
+  align-items: flex-start;
+  background-color: var(--agnostic-color);
+  border-radius: 24px;
+  display: flex;
+  gap: 32px;
+  justify-content: center;
+  mix-blend-mode: normal;
+  padding: 24px;
+  position: relative;
+  width: 606px;
+}
+
+.submitted-1440px .corpoemail-xlmxba {
+  align-items: flex-start;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 8px;
+  position: relative;
+}
+
+.submitted-1440px .img-placeholder-xlmxba {
+  -webkit-backdrop-filter: blur(46.55172348022461px) brightness(100%);
+  backdrop-filter: blur(46.55172348022461px) brightness(100%);
+  background-color: var(--agnostic-color);
+  border-radius: 13px;
+  height: 40px;
+  min-width: 140px;
+  mix-blend-mode: normal;
+  overflow: hidden;
+  position: relative;
+}
+
+.submitted-1440px .emoji-box-base-desktop {
+  background-color: transparent;
+  height: 27px;
+  left: 56px;
+  mix-blend-mode: normal;
+  position: relative;
+  top: 6px;
+  width: 27px;
+}
+
+.submitted-1440px .emoji-box-desktop {
+  background-color: transparent;
+  height: 27px;
+  left: -0px;
+  mix-blend-mode: normal;
+  object-fit: cover;
+  position: absolute;
+  top: -0px;
+  width: 27px;
+}
+
+.submitted-1440px .contact-title-desktop {
+  align-self: stretch;
+  letter-spacing: 0.40px;
+  line-height: 16px;
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+}
+
+.submitted-1440px .contact-desc-desktop {
+  align-self: stretch;
+  letter-spacing: 0.40px;
+  line-height: 16px;
+  mix-blend-mode: normal;
+  position: relative;
+}
+
+.submitted-1440px .button-voltar {
+  cursor: pointer;
+  letter-spacing: 0.40px;
+  line-height: 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: underline;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.submitted-1440px .button-voltar:hover {
+  transform: translate(0, -5px);
+}
