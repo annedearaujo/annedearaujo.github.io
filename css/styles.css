@@ -793,7 +793,7 @@ input:focus {
 
 .x1440px .intro-desktop {
     background-color: transparent;
-    height: 308px;
+    height: auto;
     min-width: 560px;
     mix-blend-mode: normal;
     position: relative;
