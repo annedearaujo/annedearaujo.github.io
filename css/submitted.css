@@ -8,6 +8,8 @@
   flex-direction: column;
   gap: 15px;
   min-width: 330px;
+  overflow: hidden;
+  overflow-x: hidden;
   padding: 28px 27px;
   position: relative;
 }
@@ -338,6 +340,7 @@
   left: 0px;
   min-width: 938px;
   mix-blend-mode: normal;
+  overflow-x: hidden;
   padding: 49px 166px;
   position: relative;
   top: 0px;
