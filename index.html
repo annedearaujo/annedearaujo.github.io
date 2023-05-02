@@ -17,13 +17,12 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="default">
     <meta name="apple-mobile-web-app-title" content="Anne Araújo 📎">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
-    <script src="https://animaapp.s3.amazonaws.com/launchpad-static/launchpad.js"></script>
     <script src="https://animaapp.s3.amazonaws.com/js/timeline.js"></script>
     <script id="anima-hotspots-script" src="hotspots.js"></script>
     <script id="anima-overrides-script" src="overrides.js"></script>
     <link rel="stylesheet" type="text/css" href="css/styleguide.css" />
     <link rel="stylesheet" type="text/css" href="css/globals.css" />
-    <link rel="stylesheet" type="text/css" href="css/styles.css"/>
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
 
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-D01LSK9WD9"></script>
@@ -34,639 +33,675 @@
 
         gtag('config', 'G-D01LSK9WD9');
     </script>
+    <!-- end of Google tag (gtag.js) -->
 </head>
 
 <body style="margin: 0; background: #ffffff">
+
+    <!-- Mobile screen -->
     <input type="hidden" id="anPageName1" name="page" value="375px" />
-        <div class="x375px screen ">
-            <div class="navbar-mobile">
-                <div class="navbar-name-mobile">
-                    <div class="button-name-mobile">
-                        <div class="name-mobile epilogue-normal-black-16px-2">anne araújo</div>
-                    </div>
-                </div>
-                <a href="#exp">
-                    <div class="navbar-exp-mobile smart-layers-pointers">
-                        <div class="button-exp-mobile">
-                            <div class="exp-mobile smart-layers-pointers epilogue-normal-black-16px-2">experiência</div>
-                        </div>
-                    </div>
-                </a><a href="#proj">
-                    <div class="navbar-proj-mobile smart-layers-pointers">
-                        <div class="button-proj-mobile">
-                            <div class="proj-mobile epilogue-normal-black-16px-2">projetos</div>
-                        </div>
-                    </div>
-                </a><a href="#ctt">
-                    <div class="navbar-mobile-contact smart-layers-pointers">
-                        <div class="button-mobile-contact">
-                            <div class="contact-mobile epilogue-normal-black-16px-2">contato</div>
-                        </div>
-                    </div>
-                </a>
+    <div class="x375px screen ">
+        <div id="menu-mobile">
+            <div id="menu-bar-mobile" onclick="menuOnClickM()">
+                <div id="bar1-mobile" class="bar-mobile epilogue-normal-black-16px"></div>
+                <div id="bar2-mobile" class="bar-mobile epilogue-normal-black-16px"></div>
+                <div id="bar3-mobile" class="bar-mobile epilogue-normal-black-16px"></div>
             </div>
-            <div class="intro-mobile">
-                <div class="intro-base-mobile">
-                    <div class="avatar-status-mobile">
-                            <div class="avatar-base-mobile">
-                                <img class="avatar-mobile" src="img/avatar-1@2x.png" alt="avatar"></div>
-                            <div class="status-base-mobile">
-                                <div class="status-mobile">
-                                    <div class="emoji-mobile epilogue-normal-black-16px-4">💡</div>
-                                </div>
-                            </div>
-                        </div>
-                    <div class="intro-title-mobile epilogue-normal-black-16px">sobre mim</div>
-                    <p class="intro-about-mobile epilogue-normal-black-16px-2">
-                        sou estudante de análise e desenvolvimento de sistemas na univali, morando em joinville. criei este site para aprimorar minhas habilidades em design responsivo. <br /> atuo no suporte a usuários de sistemas web, buscando sempre aprimorar suas experiências. <br />meu objetivo é contribuir para um futuro mais acessível e sustentável por meio da tecnologia.
-                    </p>
-                    <div class="game-link-mobile link">
-                        <a href="https://scratch.mit.edu/projects/725772485" target="_blank">
-                            <div class="game-button-mobile epilogue-normal-black-16px">clique aqui para jogar</div>
-                        </a>
-                        <div class="arrows-large">
-                            <img class="base-arrows" src="img/base---arrows-7.svg" ></div>
-                    </div>
-                </div>
-            </div>
-            <div class="exp-base-mobile" id="exp">
-                <div class="exp-title-mobile epilogue-normal-black-16px">onde estive</div>
-                <div class="exp-one-mobile">
-                    <div class="base-list">
-                        <div class="ano-ano epilogue-normal-black-16px-3">2022 - momento</div>
-                        <div class="cargo epilogue-normal-black-16px">analista de suporte dedicado</div>
-                        <div class="empresa epilogue-normal-black-16px-2">ploomes</div>
-                    </div>
-                </div>
-                <div class="exp-two-mobile">
-                    <div class="base-list">
-                        <div class="ano-ano epilogue-normal-black-16px-3">2022 - 2022</div>
-                        <div class="cargo epilogue-normal-black-16px">analista de treinamento</div>
-                        <div class="empresa epilogue-normal-black-16px-2">varejonline</div>
-                    </div>
-                </div>
-                <div class="exp-three-mobile">
-                    <div class="base-list">
-                        <div class="ano-ano epilogue-normal-black-16px-3">2021 - 2022</div>
-                        <div class="cargo epilogue-normal-black-16px">líder de suporte</div>
-                        <div class="empresa epilogue-normal-black-16px-2">varejonline</div>
-                    </div>
-                </div>
-                <a href="https://www.linkedin.com/in/annedearaujo/" target="_blank">
-                    <div class="ver-tudo epilogue-normal-black-16px">ver tudo →</div>
-                </a>
-            </div>
-            <div class="proj-base-mobile" id="proj">
-                <div class="proj-title-mobile epilogue-normal-black-16px">o que tenho feito</div>
-                    <div class="proj-one-mobile">
-                        <div class="base-list">
-                            <div class="ano epilogue-normal-black-16px-3">ano</div>
-                            <div class="frame-4699">
-                                <div class="corpoprojeto">
-                                    <div class="ptitle-mobile titulo epilogue-normal-black-16px">título</div>
-                                    <p class="descricao epilogue-normal-black-16px-2">
-                                        descrição breve de no máximo de três linhas. continue a nadar.
-                                    </p>
-                                <div class="base-images-placeholder">
-                                    <div class="device-i-phone-12">
-                                        <div class="frame">
-                                            <div class="screeni-phone12">
-                                                <div class="frame-4495">
-                                                    <div class="imagemprojeto epilogue-normal-black-16px">imagem</div>
-                                                </div>
-                                            </div>
-                                            <div class="eyebrow">
-                                                <img class="rectangle-1-Rrm6d4 rectangle-1" src="img/rectangle-1.svg" alt="Rectangle-1" >
-                                                    <div class="rectangle-2"></div>
-                                                    <div class="ellipse-1"></div>
-                                                    <div class="ellipse-3"></div>
-                                            </div>
-                                        </div>
-                                        <div class="holes">
-                                                <div class="rectangle-3"></div>
-                                                <div class="rectangle-4"></div>
-                                                <div class="rectangle-5"></div>
-                                                        
-                                        </div>
-                                        <div class="phone-buttons">
-                                                <div class="rectangle-14-f7uQmu rectangle-14"></div>
-                                                <div class="rectangle-10"></div>
-                                                <div class="rectangle-13"></div>
-                                                <div class="rectangle-12"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                                    <div class="link">
-                                        <a href="https://github.com/ennaraujo/" target="_blank">
-                                            <div class="veja epilogue-normal-black-16px">veja</div>
-                                        </a>
-                                        <div class="arrows-large">
-                                            <img class="base-arrows" src="img/base---arrows-8.svg" alt="Base / Arrows" ></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="proj-two-mobile">
-                        <div class="base-list">
-                            <div class="ano epilogue-normal-black-16px-3">ano</div>
-                            <div class="frame-4699">
-                                <div class="corpoprojeto">
-                                    <div class="ptitle-mobile titulo epilogue-normal-black-16px">título</div>
-                                    <p class="descricao epilogue-normal-black-16px-2">
-                                        descrição breve de no máximo de três linhas. continue a nadar.
-                                    </p>
-                                    <div class="base-images-placeholder">
-                                        <div class="device-i-phone-12">
-                                                <div class="frame">
-                                                    <div class="screeni-phone12">
-                                                        <div class="frame-4495">
-                                                            <div class="imagemprojeto epilogue-normal-black-16px">imagem</div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="eyebrow">
-                                                        <img class="rectangle-1-Rrm6d4 rectangle-1" src="img/rectangle-1.svg" alt="Rectangle-1" >
-                                                            <div class="rectangle-2"></div>
-                                                            <div class="ellipse-1"></div>
-                                                            <div class="ellipse-3"></div>
-                                                    </div>
-                                                </div>
-                                                <div class="holes">
-                                                        <div class="rectangle-3"></div>
-                                                        <div class="rectangle-4"></div>
-                                                        <div class="rectangle-5"></div>
-                                                </div>
-                                                <div class="phone-buttons">
-                                                        <div class="rectangle-14-f7uQmu rectangle-14"></div>
-                                                        <div class="rectangle-10"></div>
-                                                        <div class="rectangle-13"></div>
-                                                        <div class="rectangle-12"></div>
-                                                </div>
-                                        </div>
-                                    </div>
-                                    <div class="link">
-                                        <a href="https://github.com/ennaraujo/" target="_blank">
-                                            <div class="veja epilogue-normal-black-16px">veja</div>
-                                        </a>
-                                        <div class="arrows-large">
-                                            <img class="base-arrows" src="img/base---arrows-8.svg" alt="Base / Arrows" ></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="proj-three-mobile">
-                        <div class="base-list">
-                            <div class="ano epilogue-normal-black-16px-3">ano</div>
-                            <div class="frame-4699">
-                                <div class="corpoprojeto">
-                                    <div class="ptitle-mobile titulo epilogue-normal-black-16px">título</div>
-                                    <p class="descricao epilogue-normal-black-16px-2">
-                                        descrição breve de no máximo de três linhas. continue a nadar.
-                                    </p>
-                                    <div class="base-images-placeholder">
-                                        <div class="device-i-phone-12">
-                                                <div class="frame">
-                                                    <div class="screeni-phone12">
-                                                        <div class="frame-4495">
-                                                            <div class="imagemprojeto epilogue-normal-black-16px">imagem</div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="eyebrow">
-                                                        <img class="rectangle-1-Rrm6d4 rectangle-1" src="img/rectangle-1.svg" alt="Rectangle-1" >
-                                                            <div class="rectangle-2"></div>
-                                                            <div class="ellipse-1"></div>
-                                                            <div class="ellipse-3"></div>
-                                                    </div>
-                                                </div>
-                                                <div class="holes">
-                                                        <div class="rectangle-3"></div>
-                                                        <div class="rectangle-4"></div>
-                                                        <div class="rectangle-5"></div>
-                                                </div>
-                                                <div class="phone-buttons">
-                                                        <div class="rectangle-14-f7uQmu rectangle-14"></div>
-                                                        <div class="rectangle-10"></div>
-                                                        <div class="rectangle-13"></div>
-                                                        <div class="rectangle-12"></div>
-                                                </div>
-                                        </div>
-                                    </div>
-                                    <div class="link">
-                                        <a href="https://github.com/ennaraujo/" target="_blank">
-                                            <div class="veja epilogue-normal-black-16px">veja</div>
-                                        </a>
-                                        <div class="arrows-large">
-                                            <img class="base-arrows" src="img/base---arrows-8.svg" alt="Base / Arrows" ></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                <a href="https://github.com/ennaraujo/" target="_blank">
-                    <div class="ver-tudo epilogue-normal-black-16px">ver tudo →</div>
-                </a>
-            </div>
-            <div class="contact-base-mobile" id="ctt">
-                <div class="cbase-mobile base-list-1">
-                    <div class="corpoemail-X2E5rV">
-                        <div class="img-placeholder-XthDoF">
-                                    <div class="x03-emoji-ooPmxv"><img class="emojicaixa-xyAkyM" src="img/emojicaixa@2x.png" alt="emojicaixa"></div>
-                        </div>
-                        <div class="contact-intro-mobile epilogue-normal-black-16px">oi!</div>
-                        <p class="contact-desc-mobile epilogue-normal-black-16px-2">me manda uma ideia, uma proposta, um pedido de ajuda em algo ou um conselho para alguém que acaba de entrar na área.<br><br>acredito que a coletividade de ideias sempre pode nos levar mais longe :)</p>
-                        <form name="formcontato" action="https://formspree.io/f/xknaqnqb" method="POST" style="display: flex; height: 380px; flex-direction: column; justify-content: space-evenly; align-items: flex-start;">
-                            <div class="form-nome-base-mobile form">
-                                    <div class="form-nome-mobile x02-controls-email-input">
-                                        <input class="input-name-mobile epilogue-normal-black-16px-3" name="nome" placeholder="seu nome" type="text" required>
-                                    </div>
-                            </div>
-                            <div class="form-email-base-mobile form">
-                                    <div class="form-email-mobile x02-controls-email-input">
-                                        <input class="input-email-mobile epilogue-normal-black-16px-3" name="e-mail" placeholder="seu e-mail" type="email" required>
-                                    </div>
-                            </div>
-                            <div class="form-txt-base-mobile form">
-                                <textarea class="input-txt-mobile epilogue-normal-black-16px-3" name="digitesuamensagem" placeholder="digite sua mensagem       " type="text" required></textarea>
-                                </div>
-                            <div class="form-button-base-mobile form">
-                                <div class="form-button-mobile">
-                                <input class="submit-mobile epilogue-normal-black-16px" type="submit" value="enviar" onclick="redirectPage()">
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-            <div class="contact-links-base-mobile">
-                <div class="contact-links-list-mobile">
-                    <div class="contact-links-mobile links">
-                        <div class="contact-links-title-mobile epilogue-normal-black-16px">onde estou</div>
-                        <div class="links-mobile links">
-                            <div class="link-one-mobile">
-                                <a href="https://github.com/ennaraujo/" target="_blank">
-                                    <div class="link-title-one-mobile epilogue-normal-black-16px">github</div>
-                                </a>
-                                <div class="arrows-large"><img class="base-arrows" src="img/base---arrows.svg" alt="Base / Arrows" ></div>
-                            </div>
-                            <div class="link-two-mobile">
-                                <a href="https://www.linkedin.com/in/annedearaujo/" target="_blank">
-                                    <div class="link-title-two-mobile epilogue-normal-black-16px">linkedIn</div>
-                                </a>
-                                <div class="arrows-large"><img class="base-arrows" src="img/base---arrows.svg" alt="Base / Arrows" ></div>
-                            </div>
-                            <div class="link-three-mobile">
-                                <a href="https://instagram.com/annearavjo" target="_blank">
-                                    <div class="link-title-three-mobile epilogue-normal-black-16px">instagram</div>
-                                </a>
-                                <div class="arrows-large"><img class="base-arrows" src="img/base---arrows.svg" alt="Base / Arrows" ></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <nav class="nav epilogue-normal-black-16px" id="nav">
+                <ul>
+                    <li><a href="#">início</a></li>
+                    <li><a href="#exp">experiência</a></li>
+                    <li><a href="#proj">projetos</a></li>
+                    <li><a href="#ctt">contato</a></li>
+                </ul>
+            </nav>
         </div>
-    
-        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.3/dist/sweetalert2.all.min.js"></script>
-        <script>
-            function redirectPage() {
-                if (document.getElementsByName("nome").value != null && document.getElementsByName("e-mail").value != null && document.getElementsByName("digitesuamensagem").value != null){
-                    window.location.href="https://ennaraujo.github.io/home/submitted";
-                }else{
-                        Swal.fire(
-                            'Ops!',
-                            'Preencha todos os campos para enviar',
-                            'error'
-                            )
-                    }
-                }
-        </script>
 
-    <input type="hidden" id="anPageName2" name="page" value="1440px" />
-        <div class="x1440px screen">
-            <!-- <style>
-                @import url('css/1440px.css');
-            </style> -->
-            <div class="navbar-desktop">
-                    <div class="navbar-name-desktop">
-                        <div class="button-name-desktop">
-                            <div class="name-desktop epilogue-normal-black-16px-2">anne araújo</div>
-                        </div>
+        <div class="menu-bg-mobile" id="menu-bg-mobile"></div>
+        <div class="intro-mobile">
+            <div class="intro-base-mobile">
+                <div class="avatar-status-mobile">
+                    <div class="avatar-base-mobile">
+                        <img class="avatar-mobile" src="img/avatar-1@2x.png" alt="avatar">
                     </div>
-                <a href="#experience">
-                    <div class="navbar-exp-desktop smart-layers-pointers">
-                        <div class="buttons-desktop">
-                            <div class="exp-desktop smart-layers-pointers epilogue-normal-black-16px-2">sobre</div>
-                        </div>
-                    </div>
-                </a>
-                <a href="#projects">
-                    <div class="navbar-proj-mobile smart-layers-pointers">
-                        <div class="buttons-desktop">
-                            <div class="proj-desktop smart-layers-pointers epilogue-normal-black-16px-2">projetos</div>
-                        </div>
-                    </div>
-                </a>
-                <a href="#contact">
-                    <div class="navbar-contact-mobile smart-layers-pointers">
-                        <div class="buttons-desktop">
-                            <div class="contact-desktop smart-layers-pointers epilogue-normal-black-16px-2">contato</div>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="intro-desktop">
-                <div class="intro-base-desktop">
-                    <div class="avatar-status-desktop">
-                        <div class="overlap-group-1">
-                            <div class="avatar-base-desktop">
-                                <img class="avatar-desktop" src="img/avatar@2x.png"
-                                    alt="avatar" />
-                            </div>
-                            <div class="status-base-desktop">
-                                <div class="status-desktop">
-                                    <div class="emoji-desktop epilogue-normal-black-16px-4">💡</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="intro-title-desktop epilogue-normal-black-16px">sobre mim</div>
-                    <p class="descricao epilogue-normal-black-16px-2">
-                        sou estudante de análise e desenvolvimento de sistemas na univali, morando em joinville. criei este site para aprimorar minhas habilidades em design responsivo. <br /> atuo no suporte a usuários de sistemas web, buscando sempre aprimorar suas experiências. <br />meu objetivo é contribuir para um futuro mais acessível e sustentável por meio da tecnologia.
-                    </p>
-                    <div class="intro-link-desktop">
-                        <a href="https://scratch.mit.edu/projects/725772485" target="_blank">
-                            <div class="link-button-desktop epilogue-normal-black-16px">clica aqui para jogar</div>
-                        </a>
-                        <div class="arrows-large">
-                            <img class="base-arrows" src="img/base---arrows.svg">
+                    <div class="status-base-mobile">
+                        <div class="status-mobile">
+                            <div class="emoji-mobile epilogue-normal-black-16px-4">💡</div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="exp-base-desktop" id="experience">
-                <div class="exp-title-desktop epilogue-normal-black-16px">onde estive</div>
-                    <div class="lists-primary">
-                        <div class="base-list">
-                            <div class="ano-ano epilogue-normal-black-16px-3">ano - ano</div>
-                            <div class="cargo epilogue-normal-black-16px">cargo</div>
-                            <div class="empresa epilogue-normal-black-16px-2">empresa</div>
-                        </div>
-                    </div>
-                    <div class="lists-primary">
-                        <div class="base-list">
-                            <div class="ano-ano epilogue-normal-black-16px-3">ano - ano</div>
-                            <div class="cargo epilogue-normal-black-16px">cargo</div>
-                            <div class="empresa epilogue-normal-black-16px-2">empresa</div>
-                        </div>
-                    </div>
-                    <div class="lists-primary">
-                        <div class="base-list">
-                            <div class="ano-ano epilogue-normal-black-16px-3">ano - ano</div>
-                            <div class="cargo epilogue-normal-black-16px">cargo</div>
-                            <div class="empresa epilogue-normal-black-16px-2">empresa</div>
-                        </div>
-                    </div>
-                <a href="https://www.linkedin.com/in/annedearaujo/" target="_blank">
-                    <div class="ver-tudo epilogue-normal-black-16px">ver tudo →</div>
-                </a>
-            </div>
-            <div class="proj-base-desktop" id="projects">
-                <div class="proj-title-desktop epilogue-normal-black-16px">o que tenho feito</div>
-                    <div class="lists-primary">
-                        <div class="base-list">
-                            <div class="ano epilogue-normal-black-16px-3">ano</div>
-                            <div class="frame-4699">
-                                <div class="corpoprojeto">
-                                    <div class="ptitle-desktop epilogue-normal-black-16px">título</div>
-                                    <p class="descricao epilogue-normal-black-16px-2">
-                                        descrição breve de no máximo de três linhas. continue a nadar.
-                                    </p>
-                                    <div class="link">
-                                        <a href="https://github.com/ennaraujo/" target="_blank">
-                                            <div class="veja epilogue-normal-black-16px">veja</div>
-                                        </a>
-                                        <div class="arrows-large">
-                                            <img class="base-arrows" src="img/base---arrows.svg" alt="Base / Arrows">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="base-images-placeholder">
-                                    <div class="device-i-phone-12">
-                                        <div class="frame">
-                                            <div class="screeni-phone12">
-                                                <div class="frame-4495">
-                                                    <div class="imagemprojeto epilogue-normal-black-16px">imagem</div>
-                                                </div>
-                                            </div>
-                                            <div class="eyebrow">
-                                                <img class="rectangle-1-dD4r5c rectangle-1" src="img/rectangle-1.svg" alt="Rectangle 1">
-                                                    <div class="rectangle-2"></div>
-                                                    <div class="ellipse-1"></div>
-                                                    <div class="ellipse-3"></div>
-                                            </div>
-                                        </div>
-                                        <div class="holes">
-                                                <div class="rectangle-3"></div>
-                                                <div class="rectangle-4"></div>
-                                                <div class="rectangle-5"></div>
-                                        </div>
-                                        <div class="phone-buttons">
-                                                <div class="rectangle-14"></div>
-                                                <div class="rectangle-10-CHp5Lb rectangle-10"></div>
-                                                <div class="rectangle-13-CHp5Lb rectangle-13"></div>
-                                                <div class="rectangle-12"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="lists-primary">
-                        <div class="base-list">
-                            <div class="ano epilogue-normal-black-16px-3">ano</div>
-                            <div class="frame-4699">
-                                <div class="corpoprojeto">
-                                    <div class="ptitle-desktop epilogue-normal-black-16px">título</div>
-                                    <p class="descricao epilogue-normal-black-16px-2">
-                                        descrição breve de no máximo de três linhas. continue a nadar.
-                                    </p>
-                                    <div class="link">
-                                        <a href="https://github.com/ennaraujo/" target="_blank">
-                                            <div class="veja epilogue-normal-black-16px">veja</div>
-                                        </a>
-                                        <div class="arrows-large">
-                                            <img class="base-arrows" src="img/base---arrows.svg" alt="Base / Arrows">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="base-images-placeholder">
-                                    <div class="device-i-phone-12">
-                                        <div class="frame">
-                                            <div class="screeni-phone12">
-                                                <div class="frame-4495">
-                                                    <div class="imagemprojeto epilogue-normal-black-16px">imagem</div>
-                                                </div>
-                                            </div>
-                                            <div class="eyebrow">
-                                                <img class="rectangle-1-dD4r5c rectangle-1" src="img/rectangle-1.svg" alt="Rectangle 1">
-                                                    <div class="rectangle-2"></div>
-                                                    <div class="ellipse-1"></div>
-                                                    <div class="ellipse-3"></div>
-                                            </div>
-                                        </div>
-                                        <div class="holes">
-                                                <div class="rectangle-3"></div>
-                                                <div class="rectangle-4"></div>
-                                                <div class="rectangle-5"></div>
-                                        </div>
-                                        <div class="phone-buttons">
-                                                <div class="rectangle-14"></div>
-                                                <div class="rectangle-10-CHp5Lb rectangle-10"></div>
-                                                <div class="rectangle-13-CHp5Lb rectangle-13"></div>
-                                                <div class="rectangle-12"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="lists-primary">
-                        <div class="base-list">
-                            <div class="ano epilogue-normal-black-16px-3">ano</div>
-                            <div class="frame-4699">
-                                <div class="corpoprojeto">
-                                    <div class="ptitle-desktop epilogue-normal-black-16px">título</div>
-                                    <p class="descricao epilogue-normal-black-16px-2">
-                                        descrição breve de no máximo de três linhas. continue a nadar.
-                                    </p>
-                                    <div class="link">
-                                        <a href="https://github.com/ennaraujo/" target="_blank">
-                                            <div class="veja epilogue-normal-black-16px">veja</div>
-                                        </a>
-                                        <div class="arrows-large">
-                                            <img class="base-arrows" src="img/base---arrows.svg" alt="Base / Arrows">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="base-images-placeholder">
-                                    <div class="device-i-phone-12">
-                                        <div class="frame">
-                                            <div class="screeni-phone12">
-                                                <div class="frame-4495">
-                                                    <div class="imagemprojeto epilogue-normal-black-16px">imagem</div>
-                                                </div>
-                                            </div>
-                                            <div class="eyebrow">
-                                                <img class="rectangle-1-dD4r5c rectangle-1" src="img/rectangle-1.svg" alt="Rectangle 1">
-                                                    <div class="rectangle-2"></div>
-                                                    <div class="ellipse-1"></div>
-                                                    <div class="ellipse-3"></div>
-                                            </div>
-                                        </div>
-                                        <div class="holes">
-                                                <div class="rectangle-3"></div>
-                                                <div class="rectangle-4"></div>
-                                                <div class="rectangle-5"></div>
-                                        </div>
-                                        <div class="phone-buttons">
-                                                <div class="rectangle-14"></div>
-                                                <div class="rectangle-10-CHp5Lb rectangle-10"></div>
-                                                <div class="rectangle-13-CHp5Lb rectangle-13"></div>
-                                                <div class="rectangle-12"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <a href="https://github.com/ennaraujo/" target="_blank">
-                        <div class="ver-tudo epilogue-normal-black-16px">ver tudo →</div>
+                <div class="intro-title-mobile epilogue-normal-black-16px">sobre mim</div>
+                <p class="intro-about-mobile epilogue-normal-black-16px-2">
+                    sou estudante de análise e desenvolvimento de sistemas na univali, morando em joinville. criei este
+                    site para aprimorar minhas habilidades em design responsivo. <br /> atuo no suporte a usuários de
+                    sistemas web, buscando sempre aprimorar suas experiências. <br />meu objetivo é contribuir para um
+                    futuro mais acessível e sustentável por meio da tecnologia.
+                </p>
+                <div class="game-link-mobile link">
+                    <a href="https://scratch.mit.edu/projects/725772485" target="_blank">
+                        <div class="game-button-mobile epilogue-normal-black-16px">clique aqui para jogar</div>
                     </a>
+                    <div class="arrows-large">
+                        <img class="base-arrows" src="img/base---arrows-7.svg">
+                    </div>
+                </div>
             </div>
-            <div class="contact-base-desktop" id="contact">
-                    <div class="cbase-desktop base-list-1">
-                        <div class="corpoemail-xlmxba">
-                                <div class="oi-jCSKMd epilogue-normal-black-16px">oi!</div>
-                                <p class="orientando-jCSKMd epilogue-normal-black-16px-2">me manda uma ideia, uma proposta, um pedido de ajuda em algo ou um conselho para alguém que acaba de entrar na área.<br><br>acredito que a coletividade de ideias sempre pode nos levar mais longe :)
-                                </p>
-                                <form name="formcontato" action="https://formspree.io/f/xknaqnqb" method="POST" style="display: flex; height: 330px; flex-direction: column; justify-content: space-evenly; align-items: flex-start;">
-                                    <div class="form-nome-desktop">
-                                        <div class="form-nome-base-desktop">
-                                            <input class="input-nome-desktop epilogue-normal-black-16px-3" name="nome" placeholder="seu nome" type="text" required>
+        </div>
+        <div class="exp-base-mobile" id="exp">
+            <div class="exp-title-mobile epilogue-normal-black-16px">onde estive</div>
+            <div class="exp-one-mobile">
+                <div class="base-list">
+                    <div class="ano-ano epilogue-normal-black-16px-3">2022 - momento</div>
+                    <div class="cargo epilogue-normal-black-16px">analista de suporte dedicado</div>
+                    <div class="empresa epilogue-normal-black-16px-2">ploomes</div>
+                </div>
+            </div>
+            <div class="exp-two-mobile">
+                <div class="base-list">
+                    <div class="ano-ano epilogue-normal-black-16px-3">2022 - 2022</div>
+                    <div class="cargo epilogue-normal-black-16px">analista de treinamento</div>
+                    <div class="empresa epilogue-normal-black-16px-2">varejonline</div>
+                </div>
+            </div>
+            <div class="exp-three-mobile">
+                <div class="base-list">
+                    <div class="ano-ano epilogue-normal-black-16px-3">2021 - 2022</div>
+                    <div class="cargo epilogue-normal-black-16px">líder de suporte</div>
+                    <div class="empresa epilogue-normal-black-16px-2">varejonline</div>
+                </div>
+            </div>
+            <a href="https://www.linkedin.com/in/annedearaujo/" target="_blank">
+                <div class="ver-tudo epilogue-normal-black-16px">ver tudo →</div>
+            </a>
+        </div>
+        <div class="proj-base-mobile" id="proj">
+            <div class="proj-title-mobile epilogue-normal-black-16px">o que tenho feito</div>
+            <div class="proj-one-mobile">
+                <div class="base-list">
+                    <div class="ano epilogue-normal-black-16px-3">ano</div>
+                    <div class="frame-4699">
+                        <div class="corpoprojeto">
+                            <div class="ptitle-mobile titulo epilogue-normal-black-16px">título</div>
+                            <p class="descricao epilogue-normal-black-16px-2">
+                                descrição breve de no máximo de três linhas. continue a nadar.
+                            </p>
+                            <div class="base-images-placeholder">
+                                <div class="device-i-phone-12">
+                                    <div class="frame">
+                                        <div class="screeni-phone12">
+                                            <div class="frame-4495">
+                                                <div class="imagemprojeto epilogue-normal-black-16px">imagem</div>
+                                            </div>
+                                        </div>
+                                        <div class="eyebrow">
+                                            <img class="rectangle-1-Rrm6d4 rectangle-1" src="img/rectangle-1.svg"
+                                                alt="Rectangle-1">
+                                            <div class="rectangle-2"></div>
+                                            <div class="ellipse-1"></div>
+                                            <div class="ellipse-3"></div>
                                         </div>
                                     </div>
-                                    <div class="form-email-desktop">
-                                        <div class="form-email-base-desktop">
-                                            <input class="input-email-desktop epilogue-normal-black-16px-3" name="e-mail" placeholder="seu e-mail" type="email" required>
-                                        </div>
+                                    <div class="holes">
+                                        <div class="rectangle-3"></div>
+                                        <div class="rectangle-4"></div>
+                                        <div class="rectangle-5"></div>
+
                                     </div>
-                                    <div class="form-txt-desktop">
-                                        <div class="form-txt-base-desktop">
-                                            <textarea class="input-txt-desktop epilogue-normal-black-16px-3" name="digitesuamensagem" placeholder="digite sua mensagem       " type="text" required></textarea>
-                                        </div>
-                                        <div class="form-button-desktop">
-                                            <input class="submit-desktop epilogue-normal-black-16px" type="submit" value="enviar" onclick="redirectPage()">
-                                        </div>
+                                    <div class="phone-buttons">
+                                        <div class="rectangle-14-f7uQmu rectangle-14"></div>
+                                        <div class="rectangle-10"></div>
+                                        <div class="rectangle-13"></div>
+                                        <div class="rectangle-12"></div>
                                     </div>
-                                </form>
-                        </div>
-                        <div class="img-placeholder-xlmxba">
-                            <div class="emoji-box-base-desktop">
-                                <img class="emoji-box-desktop" src="img/emojicaixa@2x.png" alt="emojicaixa">
+                                </div>
+                            </div>
+                            <div class="link">
+                                <a href="https://github.com/ennaraujo/" target="_blank">
+                                    <div class="veja epilogue-normal-black-16px">veja</div>
+                                </a>
+                                <div class="arrows-large">
+                                    <img class="base-arrows" src="img/base---arrows-8.svg" alt="Base / Arrows">
+                                </div>
                             </div>
                         </div>
                     </div>
+                </div>
             </div>
-            <div class="contact-links-base-desktop">
-                <div class="contact-links-desktop base-list-1">
-                    <div class="contact-links-list-desktop links">
-                        <div class="contact-links-title-desktop epilogue-normal-black-16px">onde estou</div>
-                        <div class="contact-links-desktop links">
-                                <div class="link-one-desktop">
-                                    <a href="https://github.com/ennaraujo/" target="_blank">
-                                        <div class="link-one-title-desktop link-2 epilogue-normal-black-16px">github</div>
-                                    </a>
-                                    <div class="arrows-large">
-                                        <img class="base-arrows" src="img/base---arrows.svg" alt="Base / Arrows">
-                                    </div>
-                                </div>
-                                <div class="link-two-desktop">
-                                    <a href="https://www.linkedin.com/in/annedearaujo/" target="_blank">
-                                        <div class="link-two-title-desktop link-2 epilogue-normal-black-16px">linkedIn</div>
-                                    </a>
-                                        <div class="arrows-large">
-                                            <img class="base-arrows" src="img/base---arrows.svg" alt="Base / Arrows">
+            <div class="proj-two-mobile">
+                <div class="base-list">
+                    <div class="ano epilogue-normal-black-16px-3">ano</div>
+                    <div class="frame-4699">
+                        <div class="corpoprojeto">
+                            <div class="ptitle-mobile titulo epilogue-normal-black-16px">título</div>
+                            <p class="descricao epilogue-normal-black-16px-2">
+                                descrição breve de no máximo de três linhas. continue a nadar.
+                            </p>
+                            <div class="base-images-placeholder">
+                                <div class="device-i-phone-12">
+                                    <div class="frame">
+                                        <div class="screeni-phone12">
+                                            <div class="frame-4495">
+                                                <div class="imagemprojeto epilogue-normal-black-16px">imagem</div>
+                                            </div>
                                         </div>
-                                </div>
-                                <div class="link-three-desktop">
-                                    <a href="https://instagram.com/annearavjo" target="_blank">
-                                        <div class="link-three-title-desktop link-2 epilogue-normal-black-16px">instagram</div>
-                                    </a>
-                                    <div class="arrows-large">
-                                        <img class="base-arrows" src="img/base---arrows.svg" alt="Base / Arrows">
+                                        <div class="eyebrow">
+                                            <img class="rectangle-1-Rrm6d4 rectangle-1" src="img/rectangle-1.svg"
+                                                alt="Rectangle-1">
+                                            <div class="rectangle-2"></div>
+                                            <div class="ellipse-1"></div>
+                                            <div class="ellipse-3"></div>
+                                        </div>
+                                    </div>
+                                    <div class="holes">
+                                        <div class="rectangle-3"></div>
+                                        <div class="rectangle-4"></div>
+                                        <div class="rectangle-5"></div>
+                                    </div>
+                                    <div class="phone-buttons">
+                                        <div class="rectangle-14-f7uQmu rectangle-14"></div>
+                                        <div class="rectangle-10"></div>
+                                        <div class="rectangle-13"></div>
+                                        <div class="rectangle-12"></div>
                                     </div>
                                 </div>
+                            </div>
+                            <div class="link">
+                                <a href="https://github.com/ennaraujo/" target="_blank">
+                                    <div class="veja epilogue-normal-black-16px">veja</div>
+                                </a>
+                                <div class="arrows-large">
+                                    <img class="base-arrows" src="img/base---arrows-8.svg" alt="Base / Arrows">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="proj-three-mobile">
+                <div class="base-list">
+                    <div class="ano epilogue-normal-black-16px-3">ano</div>
+                    <div class="frame-4699">
+                        <div class="corpoprojeto">
+                            <div class="ptitle-mobile titulo epilogue-normal-black-16px">título</div>
+                            <p class="descricao epilogue-normal-black-16px-2">
+                                descrição breve de no máximo de três linhas. continue a nadar.
+                            </p>
+                            <div class="base-images-placeholder">
+                                <div class="device-i-phone-12">
+                                    <div class="frame">
+                                        <div class="screeni-phone12">
+                                            <div class="frame-4495">
+                                                <div class="imagemprojeto epilogue-normal-black-16px">imagem</div>
+                                            </div>
+                                        </div>
+                                        <div class="eyebrow">
+                                            <img class="rectangle-1-Rrm6d4 rectangle-1" src="img/rectangle-1.svg"
+                                                alt="Rectangle-1">
+                                            <div class="rectangle-2"></div>
+                                            <div class="ellipse-1"></div>
+                                            <div class="ellipse-3"></div>
+                                        </div>
+                                    </div>
+                                    <div class="holes">
+                                        <div class="rectangle-3"></div>
+                                        <div class="rectangle-4"></div>
+                                        <div class="rectangle-5"></div>
+                                    </div>
+                                    <div class="phone-buttons">
+                                        <div class="rectangle-14-f7uQmu rectangle-14"></div>
+                                        <div class="rectangle-10"></div>
+                                        <div class="rectangle-13"></div>
+                                        <div class="rectangle-12"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="link">
+                                <a href="https://github.com/ennaraujo/" target="_blank">
+                                    <div class="veja epilogue-normal-black-16px">veja</div>
+                                </a>
+                                <div class="arrows-large">
+                                    <img class="base-arrows" src="img/base---arrows-8.svg" alt="Base / Arrows">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a href="https://github.com/ennaraujo/" target="_blank">
+                <div class="ver-tudo epilogue-normal-black-16px">ver tudo →</div>
+            </a>
+        </div>
+        <div class="contact-base-mobile" id="ctt">
+            <div class="cbase-mobile base-list-1">
+                <div class="corpoemail-X2E5rV">
+                    <div class="img-placeholder-XthDoF">
+                        <div class="x03-emoji-ooPmxv"><img class="emojicaixa-xyAkyM" src="img/emojicaixa@2x.png"
+                                alt="emojicaixa"></div>
+                    </div>
+                    <div class="contact-intro-mobile epilogue-normal-black-16px">oi!</div>
+                    <p class="contact-desc-mobile epilogue-normal-black-16px-2">me manda uma ideia, uma proposta, um
+                        pedido de ajuda em algo ou um conselho para alguém que acaba de entrar na área.<br><br>acredito
+                        que a coletividade de ideias sempre pode nos levar mais longe :)</p>
+                    <form name="formcontato" action="https://formspree.io/f/xknaqnqb" method="POST"
+                        style="display: flex; height: 380px; flex-direction: column; justify-content: space-evenly; align-items: flex-start;">
+                        <div class="form-nome-base-mobile form">
+                            <div class="form-nome-mobile x02-controls-email-input">
+                                <input class="input-name-mobile epilogue-normal-black-16px-3" name="nome"
+                                    placeholder="seu nome" type="text" required>
+                            </div>
+                        </div>
+                        <div class="form-email-base-mobile form">
+                            <div class="form-email-mobile x02-controls-email-input">
+                                <input class="input-email-mobile epilogue-normal-black-16px-3" name="e-mail"
+                                    placeholder="seu e-mail" type="email" required>
+                            </div>
+                        </div>
+                        <div class="form-txt-base-mobile form">
+                            <textarea class="input-txt-mobile epilogue-normal-black-16px-3" name="digitesuamensagem"
+                                placeholder="digite sua mensagem       " type="text" required></textarea>
+                        </div>
+                        <div class="form-button-base-mobile form">
+                            <div class="form-button-mobile">
+                                <input class="submit-mobile epilogue-normal-black-16px" type="submit" value="enviar"
+                                    onclick="redirectPage()">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="contact-links-base-mobile">
+            <div class="contact-links-list-mobile">
+                <div class="contact-links-mobile links">
+                    <div class="contact-links-title-mobile epilogue-normal-black-16px">onde estou</div>
+                    <div class="links-mobile links">
+                        <div class="link-one-mobile">
+                            <a href="https://github.com/ennaraujo/" target="_blank">
+                                <div class="link-title-one-mobile epilogue-normal-black-16px">github</div>
+                            </a>
+                            <div class="arrows-large"><img class="base-arrows" src="img/base---arrows.svg"
+                                    alt="Base / Arrows"></div>
+                        </div>
+                        <div class="link-two-mobile">
+                            <a href="https://www.linkedin.com/in/annedearaujo/" target="_blank">
+                                <div class="link-title-two-mobile epilogue-normal-black-16px">linkedIn</div>
+                            </a>
+                            <div class="arrows-large"><img class="base-arrows" src="img/base---arrows.svg"
+                                    alt="Base / Arrows"></div>
+                        </div>
+                        <div class="link-three-mobile">
+                            <a href="https://instagram.com/annearavjo" target="_blank">
+                                <div class="link-title-three-mobile epilogue-normal-black-16px">instagram</div>
+                            </a>
+                            <div class="arrows-large"><img class="base-arrows" src="img/base---arrows.svg"
+                                    alt="Base / Arrows"></div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
 
-        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.3/dist/sweetalert2.all.min.js"></script>
-        <script>
-            function redirectPage() {
-                if (document.getElementsByName("nome").value != null && document.getElementsByName("e-mail").value != null && document.getElementsByName("digitesuamensagem").value != null){
-                    window.location.href="https://ennaraujo.github.io/home/submitted";
-                }else{
-                        Swal.fire(
-                            'Ops!',
-                            'Preencha todos os campos para enviar',
-                            'error'
-                            )
-                    }
-                }
-        </script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.3/dist/sweetalert2.all.min.js"></script>
+    <script>
+        function redirectPage() {
+            if (document.getElementsByName("nome").value != null && document.getElementsByName("e-mail").value != null && document.getElementsByName("digitesuamensagem").value != null) {
+                window.location.href = "https://ennaraujo.github.io/home/submitted";
+            } else {
+                Swal.fire(
+                    'Ops!',
+                    'Preencha todos os campos para enviar',
+                    'error'
+                )
+            }
+        }
+    </script>
+
+    <script id="rendered-js1">
+        function menuOnClickM() {
+            document.getElementById("menu-bar-mobile").classList.toggle("change-mobile");
+            document.getElementById("nav").classList.toggle("change-mobile");
+            document.getElementById("menu-bg-mobile").classList.toggle("change-bg-mobile");
+        }
+    </script>
+    <!-- end of Mobile screen -->
+
+    <!-- Desktop screen -->
+    <input type="hidden" id="anPageName2" name="page" value="1440px" />
+    <div class="x1440px screen">
+        <div id="menu-desktop">
+            <div id="menu-bar-desktop" onclick="menuOnClickD()">
+                <div id="bar1-desktop" class="bar epilogue-normal-black-16px"></div>
+                <div id="bar2-desktop" class="bar epilogue-normal-black-16px"></div>
+                <div id="bar3-desktop" class="bar epilogue-normal-black-16px"></div>
+            </div>
+            <nav class="nav epilogue-normal-black-16px" id="nav-desktop">
+                <ul>
+                    <li><a href="#">início</a></li>
+                    <li><a href="#experience">experiência</a></li>
+                    <li><a href="#projects">projetos</a></li>
+                    <li><a href="#contact">contato</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="menu-bg epilogue-normal-black-16px" id="menu-bg"></div>
+        <div class="intro-desktop">
+            <div class="intro-base-desktop">
+                <div class="avatar-status-desktop">
+                    <div class="overlap-group-1">
+                        <div class="avatar-base-desktop">
+                            <img class="avatar-desktop" src="img/avatar@2x.png" alt="avatar" />
+                        </div>
+                        <div class="status-base-desktop">
+                            <div class="status-desktop">
+                                <div class="emoji-desktop epilogue-normal-black-16px-4">💡</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="intro-title-desktop epilogue-normal-black-16px">sobre mim</div>
+                <p class="descricao epilogue-normal-black-16px-2">
+                    sou estudante de análise e desenvolvimento de sistemas na univali, morando em joinville. criei este
+                    site para aprimorar minhas habilidades em design responsivo. <br /> atuo no suporte a usuários de
+                    sistemas web, buscando sempre aprimorar suas experiências. <br />meu objetivo é contribuir para um
+                    futuro mais acessível e sustentável por meio da tecnologia.
+                </p>
+                <div class="intro-link-desktop">
+                    <a href="https://scratch.mit.edu/projects/725772485" target="_blank">
+                        <div class="link-button-desktop epilogue-normal-black-16px">clica aqui para jogar</div>
+                    </a>
+                    <div class="arrows-large">
+                        <img class="base-arrows" src="img/base---arrows.svg">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="exp-base-desktop" id="experience">
+            <div class="exp-title-desktop epilogue-normal-black-16px">onde estive</div>
+            <div class="lists-primary">
+                <div class="base-list">
+                    <div class="ano-ano epilogue-normal-black-16px-3">ano - ano</div>
+                    <div class="cargo epilogue-normal-black-16px">cargo</div>
+                    <div class="empresa epilogue-normal-black-16px-2">empresa</div>
+                </div>
+            </div>
+            <div class="lists-primary">
+                <div class="base-list">
+                    <div class="ano-ano epilogue-normal-black-16px-3">ano - ano</div>
+                    <div class="cargo epilogue-normal-black-16px">cargo</div>
+                    <div class="empresa epilogue-normal-black-16px-2">empresa</div>
+                </div>
+            </div>
+            <div class="lists-primary">
+                <div class="base-list">
+                    <div class="ano-ano epilogue-normal-black-16px-3">ano - ano</div>
+                    <div class="cargo epilogue-normal-black-16px">cargo</div>
+                    <div class="empresa epilogue-normal-black-16px-2">empresa</div>
+                </div>
+            </div>
+            <a href="https://www.linkedin.com/in/annedearaujo/" target="_blank">
+                <div class="ver-tudo epilogue-normal-black-16px">ver tudo →</div>
+            </a>
+        </div>
+        <div class="proj-base-desktop" id="projects">
+            <div class="proj-title-desktop epilogue-normal-black-16px">o que tenho feito</div>
+            <div class="lists-primary">
+                <div class="base-list">
+                    <div class="ano epilogue-normal-black-16px-3">ano</div>
+                    <div class="frame-4699">
+                        <div class="corpoprojeto">
+                            <div class="ptitle-desktop epilogue-normal-black-16px">título</div>
+                            <p class="descricao epilogue-normal-black-16px-2">
+                                descrição breve de no máximo de três linhas. continue a nadar.
+                            </p>
+                            <div class="link">
+                                <a href="https://github.com/ennaraujo/" target="_blank">
+                                    <div class="veja epilogue-normal-black-16px">veja</div>
+                                </a>
+                                <div class="arrows-large">
+                                    <img class="base-arrows" src="img/base---arrows.svg" alt="Base / Arrows">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="base-images-placeholder">
+                            <div class="device-i-phone-12">
+                                <div class="frame">
+                                    <div class="screeni-phone12">
+                                        <div class="frame-4495">
+                                            <div class="imagemprojeto epilogue-normal-black-16px">imagem</div>
+                                        </div>
+                                    </div>
+                                    <div class="eyebrow">
+                                        <img class="rectangle-1-dD4r5c rectangle-1" src="img/rectangle-1.svg"
+                                            alt="Rectangle 1">
+                                        <div class="rectangle-2"></div>
+                                        <div class="ellipse-1"></div>
+                                        <div class="ellipse-3"></div>
+                                    </div>
+                                </div>
+                                <div class="holes">
+                                    <div class="rectangle-3"></div>
+                                    <div class="rectangle-4"></div>
+                                    <div class="rectangle-5"></div>
+                                </div>
+                                <div class="phone-buttons">
+                                    <div class="rectangle-14"></div>
+                                    <div class="rectangle-10-CHp5Lb rectangle-10"></div>
+                                    <div class="rectangle-13-CHp5Lb rectangle-13"></div>
+                                    <div class="rectangle-12"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="lists-primary">
+                <div class="base-list">
+                    <div class="ano epilogue-normal-black-16px-3">ano</div>
+                    <div class="frame-4699">
+                        <div class="corpoprojeto">
+                            <div class="ptitle-desktop epilogue-normal-black-16px">título</div>
+                            <p class="descricao epilogue-normal-black-16px-2">
+                                descrição breve de no máximo de três linhas. continue a nadar.
+                            </p>
+                            <div class="link">
+                                <a href="https://github.com/ennaraujo/" target="_blank">
+                                    <div class="veja epilogue-normal-black-16px">veja</div>
+                                </a>
+                                <div class="arrows-large">
+                                    <img class="base-arrows" src="img/base---arrows.svg" alt="Base / Arrows">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="base-images-placeholder">
+                            <div class="device-i-phone-12">
+                                <div class="frame">
+                                    <div class="screeni-phone12">
+                                        <div class="frame-4495">
+                                            <div class="imagemprojeto epilogue-normal-black-16px">imagem</div>
+                                        </div>
+                                    </div>
+                                    <div class="eyebrow">
+                                        <img class="rectangle-1-dD4r5c rectangle-1" src="img/rectangle-1.svg"
+                                            alt="Rectangle 1">
+                                        <div class="rectangle-2"></div>
+                                        <div class="ellipse-1"></div>
+                                        <div class="ellipse-3"></div>
+                                    </div>
+                                </div>
+                                <div class="holes">
+                                    <div class="rectangle-3"></div>
+                                    <div class="rectangle-4"></div>
+                                    <div class="rectangle-5"></div>
+                                </div>
+                                <div class="phone-buttons">
+                                    <div class="rectangle-14"></div>
+                                    <div class="rectangle-10-CHp5Lb rectangle-10"></div>
+                                    <div class="rectangle-13-CHp5Lb rectangle-13"></div>
+                                    <div class="rectangle-12"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="lists-primary">
+                <div class="base-list">
+                    <div class="ano epilogue-normal-black-16px-3">ano</div>
+                    <div class="frame-4699">
+                        <div class="corpoprojeto">
+                            <div class="ptitle-desktop epilogue-normal-black-16px">título</div>
+                            <p class="descricao epilogue-normal-black-16px-2">
+                                descrição breve de no máximo de três linhas. continue a nadar.
+                            </p>
+                            <div class="link">
+                                <a href="https://github.com/ennaraujo/" target="_blank">
+                                    <div class="veja epilogue-normal-black-16px">veja</div>
+                                </a>
+                                <div class="arrows-large">
+                                    <img class="base-arrows" src="img/base---arrows.svg" alt="Base / Arrows">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="base-images-placeholder">
+                            <div class="device-i-phone-12">
+                                <div class="frame">
+                                    <div class="screeni-phone12">
+                                        <div class="frame-4495">
+                                            <div class="imagemprojeto epilogue-normal-black-16px">imagem</div>
+                                        </div>
+                                    </div>
+                                    <div class="eyebrow">
+                                        <img class="rectangle-1-dD4r5c rectangle-1" src="img/rectangle-1.svg"
+                                            alt="Rectangle 1">
+                                        <div class="rectangle-2"></div>
+                                        <div class="ellipse-1"></div>
+                                        <div class="ellipse-3"></div>
+                                    </div>
+                                </div>
+                                <div class="holes">
+                                    <div class="rectangle-3"></div>
+                                    <div class="rectangle-4"></div>
+                                    <div class="rectangle-5"></div>
+                                </div>
+                                <div class="phone-buttons">
+                                    <div class="rectangle-14"></div>
+                                    <div class="rectangle-10-CHp5Lb rectangle-10"></div>
+                                    <div class="rectangle-13-CHp5Lb rectangle-13"></div>
+                                    <div class="rectangle-12"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a href="https://github.com/ennaraujo/" target="_blank">
+                <div class="ver-tudo epilogue-normal-black-16px">ver tudo →</div>
+            </a>
+        </div>
+        <div class="contact-base-desktop" id="contact">
+            <div class="cbase-desktop base-list-1">
+                <div class="corpoemail-xlmxba">
+                    <div class="oi-jCSKMd epilogue-normal-black-16px">oi!</div>
+                    <p class="orientando-jCSKMd epilogue-normal-black-16px-2">me manda uma ideia, uma proposta, um
+                        pedido de ajuda em algo ou um conselho para alguém que acaba de entrar na área.<br><br>acredito
+                        que a coletividade de ideias sempre pode nos levar mais longe :)
+                    </p>
+                    <form name="formcontato" action="https://formspree.io/f/xknaqnqb" method="POST"
+                        style="display: flex; height: 330px; flex-direction: column; justify-content: space-evenly; align-items: flex-start;">
+                        <div class="form-nome-desktop">
+                            <div class="form-nome-base-desktop">
+                                <input class="input-nome-desktop epilogue-normal-black-16px-3" name="nome"
+                                    placeholder="seu nome" type="text" required>
+                            </div>
+                        </div>
+                        <div class="form-email-desktop">
+                            <div class="form-email-base-desktop">
+                                <input class="input-email-desktop epilogue-normal-black-16px-3" name="e-mail"
+                                    placeholder="seu e-mail" type="email" required>
+                            </div>
+                        </div>
+                        <div class="form-txt-desktop">
+                            <div class="form-txt-base-desktop">
+                                <textarea class="input-txt-desktop epilogue-normal-black-16px-3"
+                                    name="digitesuamensagem" placeholder="digite sua mensagem       " type="text"
+                                    required></textarea>
+                            </div>
+                            <div class="form-button-desktop">
+                                <input class="submit-desktop epilogue-normal-black-16px" type="submit" value="enviar"
+                                    onclick="redirectPage()">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="img-placeholder-xlmxba">
+                    <div class="emoji-box-base-desktop">
+                        <img class="emoji-box-desktop" src="img/emojicaixa@2x.png" alt="emojicaixa">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="contact-links-base-desktop">
+            <div class="contact-links-desktop base-list-1">
+                <div class="contact-links-list-desktop links">
+                    <div class="contact-links-title-desktop epilogue-normal-black-16px">onde estou</div>
+                    <div class="contact-links-desktop links">
+                        <div class="link-one-desktop">
+                            <a href="https://github.com/ennaraujo/" target="_blank">
+                                <div class="link-one-title-desktop link-2 epilogue-normal-black-16px">github</div>
+                            </a>
+                            <div class="arrows-large">
+                                <img class="base-arrows" src="img/base---arrows.svg" alt="Base / Arrows">
+                            </div>
+                        </div>
+                        <div class="link-two-desktop">
+                            <a href="https://www.linkedin.com/in/annedearaujo/" target="_blank">
+                                <div class="link-two-title-desktop link-2 epilogue-normal-black-16px">linkedIn</div>
+                            </a>
+                            <div class="arrows-large">
+                                <img class="base-arrows" src="img/base---arrows.svg" alt="Base / Arrows">
+                            </div>
+                        </div>
+                        <div class="link-three-desktop">
+                            <a href="https://instagram.com/annearavjo" target="_blank">
+                                <div class="link-three-title-desktop link-2 epilogue-normal-black-16px">instagram</div>
+                            </a>
+                            <div class="arrows-large">
+                                <img class="base-arrows" src="img/base---arrows.svg" alt="Base / Arrows">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Hamburger menu -->
+    <script id="rendered-js">
+        function menuOnClickD() {
+            document.getElementById("menu-bar-desktop").classList.toggle("change");
+            document.getElementById("nav-desktop").classList.toggle("change");
+            document.getElementById("menu-bg").classList.toggle("change-bg");
+        }
+    </script>
+
+    <!-- Alert e Submission redirect -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.3/dist/sweetalert2.all.min.js"></script>
+    <script>
+        function redirectPage() {
+            if (document.getElementsByName("nome").value != null && document.getElementsByName("e-mail").value != null && document.getElementsByName("digitesuamensagem").value != null) {
+                window.location.href = "https://ennaraujo.github.io/home/submitted";
+            } else {
+                Swal.fire(
+                    'Ops!',
+                    'Preencha todos os campos para enviar',
+                    'error'
+                )
+            }
+        }
+    </script>
+    <!-- end of Desktop screen -->
 
 </body>
 
