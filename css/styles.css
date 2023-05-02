@@ -4,8 +4,6 @@
 
 @import url('https://cdn.jsdelivr.net/npm/sweetalert2@11.7.3/dist/sweetalert2.min.css');
 
-/* css agora */
-
 .screen * {
     -webkit-font-smoothing: antialiased;
     box-sizing: border-box;
@@ -200,11 +198,11 @@ input:focus {
     --black-4: #00000061;
     --licorice: #151515;
     --white: #ffffff;
-
     --font-size-m: 16px;
-
     --font-family-epilogue: "Epilogue", Helvetica;
 }
+
+/* classes de fonte (epilogue) */
 
 .epilogue-normal-black-16px {
     color: var(--black-2);
@@ -238,361 +236,6 @@ input:focus {
     font-weight: 400;
 }
 
-:root {}
-
-/* que_isso_meu_deus */
-
-
-.highlighter {
-    background-color: transparent;
-    height: 1px;
-    min-width: 6px;
-    position: relative;
-}
-
-.ano-ano {
-    align-self: stretch;
-    background-color: transparent;
-    letter-spacing: 0.40px;
-    line-height: 16px;
-    margin-top: -1.00px;
-    mix-blend-mode: normal;
-    position: relative;
-    text-align: left;
-    white-space: nowrap;
-}
-
-.arrows-large {
-    background-color: transparent;
-    height: 16px;
-    min-width: 16px;
-    overflow: hidden;
-    position: relative;
-}
-
-.base-arrows {
-    background-color: transparent;
-    height: 16px;
-    left: 0px;
-    position: absolute;
-    top: 0px;
-    width: 16px;
-}
-
-.base-images-placeholder {
-    -webkit-backdrop-filter: blur(24.459135055541992px) brightness(100%);
-    backdrop-filter: blur(24.459135055541992px) brightness(100%);
-    background-color: var(--agnostic-color);
-    border-radius: 16px;
-    height: 125px;
-    min-width: 145px;
-    mix-blend-mode: normal;
-    overflow: hidden;
-    position: relative;
-}
-
-.base-list {
-    align-items: flex-start;
-    background-color: transparent;
-    display: flex;
-    flex: 1;
-    flex-direction: column;
-    gap: 8px;
-    height: auto;
-    justify-content: center;
-    position: relative;
-}
-
-.cargo {
-    align-self: stretch;
-    background-color: transparent;
-    letter-spacing: 0.40px;
-    line-height: 16px;
-    mix-blend-mode: normal;
-    position: relative;
-    text-align: left;
-    white-space: nowrap;
-}
-
-.descricao {
-    align-self: stretch;
-    background-color: transparent;
-    letter-spacing: 0.40px;
-    line-height: 16px;
-    mix-blend-mode: normal;
-    position: relative;
-    text-align: left;
-}
-
-.device-i-phone-12 {
-    background-color: transparent;
-    height: 110px;
-    left: 32px;
-    position: relative;
-    top: 19px;
-    width: 82px;
-}
-
-.ellipse-1 {
-    background-color: var(--licorice);
-    border-radius: 1.5px/1.51px;
-    height: 3px;
-    left: 28px;
-    mix-blend-mode: normal;
-    position: absolute;
-    top: 1px;
-    width: 3px;
-}
-
-.ellipse-3 {
-    background: linear-gradient(180deg, rgb(46.000001057982445, 67.00000360608101, 108.00000116229057) 0%, rgba(44.62499924004078, 44.62499924004078, 44.62499924004078, 0) 50%, rgb(52.81067579984665, 89.26493927836418, 160.43749898672104) 84.89583134651184%, rgb(75.86250364780426, 140.67076206207275, 216.75000607967377) 100%);
-    background-color: transparent;
-    border-radius: 0.66px;
-    box-shadow: inset 0px 0px 0.3702441155910492px #b2ecff4c;
-    height: 1px;
-    left: 29px;
-    mix-blend-mode: normal;
-    position: absolute;
-    top: 2px;
-    transform: rotate(-30.01deg);
-    width: 1px;
-}
-
-.empresa {
-    align-self: stretch;
-    background-color: transparent;
-    letter-spacing: 0.40px;
-    line-height: 16px;
-    mix-blend-mode: normal;
-    position: relative;
-    text-align: left;
-    white-space: nowrap;
-}
-
-.eyebrow {
-    background-color: transparent;
-    height: 6px;
-    left: 20px;
-    position: absolute;
-    top: 4px;
-    width: 41px;
-}
-
-.frame {
-    background-color: var(--white);
-    border: 0.09605389088392258px solid;
-    border-color: var(--white);
-    border-radius: 12.22px;
-    box-shadow: inset 0px 0px 0px 3.650047779083252px #030303, inset 0px 0px 0px 1.3447544574737549px #ffffffb0, inset 0px 0px 0px 0.6723772287368774px #f6f6f6, inset 0px 0px 0px 0.3842155635356903px #000000;
-    height: 120px;
-    left: -0px;
-    mix-blend-mode: normal;
-    overflow: hidden;
-    position: absolute;
-    top: -1px;
-    width: 83px;
-}
-
-.frame-4495 {
-    align-items: flex-start;
-    background-color: transparent;
-    display: flex;
-    flex-direction: column;
-    gap: 1.5368622541427612px;
-    height: auto;
-    left: 6px;
-    position: relative;
-    top: 64px;
-    width: 60px;
-}
-
-.frame-4699 {
-    align-items: flex-start;
-    align-self: stretch;
-    background-color: transparent;
-    display: flex;
-    gap: 32px;
-    height: auto;
-    mix-blend-mode: normal;
-    position: relative;
-}
-
-.holes {
-    background-color: transparent;
-    height: 110px;
-    left: 1px;
-    position: absolute;
-    top: 0px;
-    width: 81px;
-}
-
-.imagemprojeto {
-    align-self: stretch;
-    background-color: transparent;
-    letter-spacing: 0.40px;
-    line-height: 16px;
-    margin-top: -0.19px;
-    mix-blend-mode: normal;
-    position: relative;
-    text-align: center;
-    white-space: nowrap;
-}
-
-.link {
-    align-items: center;
-    background-color: transparent;
-    display: flex;
-    gap: 4px;
-    height: auto;
-    justify-content: center;
-    position: relative;
-    width: fit-content;
-}
-
-.rectangle-1 {
-    background-color: transparent;
-    height: 6px;
-    left: -0px;
-    mix-blend-mode: normal;
-    position: absolute;
-    width: 41px;
-}
-
-.rectangle-12 {
-    background: linear-gradient(180deg, rgb(0, 0, 0) 0%, rgb(255, 255, 255) 21.526703238487244%, rgb(255, 255, 255) 75.69557428359985%, rgba(0, 0, 0, 0.9800000190734863) 100%);
-    background-color: transparent;
-    border-radius: 0.3842155635356903px 0px 0px 0.3842155635356903px;
-    box-shadow: inset -0.07684311270713806px 0px 0.03842155635356903px 0.07684311270713806px #000000, inset 0.07684311270713806px 0.7684311270713806px 0.03842155635356903px 0.03842155635356903px #000000cc;
-    height: 20px;
-    left: 81px;
-    mix-blend-mode: normal;
-    position: absolute;
-    top: 16px;
-    transform: rotate(180.00deg);
-    width: 1px;
-}
-
-.rectangle-2 {
-    background-color: var(--licorice);
-    border: 0.1851220577955246px solid;
-    border-color: transparent;
-    border-image: linear-gradient(to bottom, rgb(0, 0, 0), rgb(76.50000303983688, 76.50000303983688, 76.50000303983688) 51.5625%, rgb(0, 0, 0) 100%) 1;
-    border-radius: 0.37px;
-    height: 1px;
-    left: 16px;
-    mix-blend-mode: normal;
-    position: absolute;
-    top: 2px;
-    width: 9px;
-}
-
-.rectangle-3 {
-    background: linear-gradient(180deg, rgb(255, 255, 255) 0%, rgb(221.88260346651077, 221.88260346651077, 221.88260346651077) 100%);
-    background-color: transparent;
-    height: 1px;
-    left: 64px;
-    mix-blend-mode: normal;
-    position: absolute;
-    top: 0px;
-    width: 1px;
-}
-
-.rectangle-4 {
-    background: linear-gradient(180deg, rgb(255, 255, 255) 0%, rgb(221.88260346651077, 221.88260346651077, 221.88260346651077) 100%);
-    background-color: transparent;
-    height: 1px;
-    left: 79px;
-    mix-blend-mode: normal;
-    position: absolute;
-    top: 16px;
-    transform: rotate(90.00deg);
-    width: 1px;
-}
-
-.rectangle-5 {
-    background: linear-gradient(180deg, rgb(255, 255, 255) 0%, rgb(221.88260346651077, 221.88260346651077, 221.88260346651077) 100%);
-    background-color: transparent;
-    height: 1px;
-    left: 0px;
-    mix-blend-mode: normal;
-    position: absolute;
-    top: 16px;
-    transform: rotate(-90.00deg);
-    width: 1px;
-}
-
-.rectangle-6 {
-    background: linear-gradient(180deg, rgb(255, 255, 255) 0%, rgb(221.88260346651077, 221.88260346651077, 221.88260346651077) 100%);
-    background-color: transparent;
-    height: 1px;
-    left: 79px;
-    mix-blend-mode: normal;
-    position: absolute;
-    top: 149px;
-    transform: rotate(90.00deg);
-    width: 1px;
-}
-
-.rectangle-8 {
-    background: linear-gradient(180deg, rgb(255, 255, 255) 0%, rgb(221.88260346651077, 221.88260346651077, 221.88260346651077) 100%);
-    background-color: transparent;
-    height: 1px;
-    left: 16px;
-    mix-blend-mode: normal;
-    position: absolute;
-    top: 164px;
-    transform: rotate(180.00deg);
-    width: 1px;
-}
-
-.screeni-phone12 {
-    background-color: var(--white);
-    border-radius: 4.61px;
-    height: 159px;
-    left: 4px;
-    mix-blend-mode: normal;
-    overflow: hidden;
-    position: absolute;
-    top: 4px;
-    width: 73px;
-}
-
-.intro-title-mobile {
-    align-self: stretch;
-    background-color: transparent;
-    letter-spacing: 0.40px;
-    line-height: 16px;
-    mix-blend-mode: normal;
-    position: relative;
-    text-align: left;
-    white-space: nowrap;
-}
-
-.veja {
-    background-color: transparent;
-    cursor: pointer;
-    letter-spacing: 0.40px;
-    line-height: 16px;
-    margin-top: -1.00px;
-    mix-blend-mode: normal;
-    position: relative;
-    text-align: left;
-    white-space: nowrap;
-    width: fit-content;
-}
-
-.ver-tudo {
-    align-self: stretch;
-    background-color: transparent;
-    cursor: pointer;
-    letter-spacing: 0.40px;
-    line-height: 16px;
-    mix-blend-mode: normal;
-    position: relative;
-    text-align: left;
-    white-space: nowrap;
-}
-
 /* screen - 1440px */
 
 .x1440px {
@@ -612,183 +255,99 @@ input:focus {
     top: 0px;
 }
 
-.x1440px .navbar-desktop {
-    align-items: flex-start;
-    background-color: transparent;
-    display: flex;
-    gap: 16px;
-    height: auto;
-    position: relative;
-    width: fit-content;
+.x1440px #menu-desktop {
+    z-index: 2;
 }
 
-.x1440px .navbar-name-desktop {
-    align-items: center;
-    background-color: transparent;
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-    height: auto;
-    position: relative;
-    width: fit-content;
+.x1440px #menu-bar-desktop {
+    width: 45px;
+    height: 40px;
+    margin: 30px 0 20px 20px;
+    cursor: pointer;
 }
 
-.x1440px .button-name-desktop {
-    align-items: center;
-    background-color: transparent;
-    border-radius: 12px;
-    display: flex;
-    height: auto;
-    mix-blend-mode: normal;
-    overflow: hidden;
-    padding: 12px 24px;
-    position: relative;
-    width: fit-content;
+.x1440px .bar {
+    height: 5px;
+    width: 100%;
+    background-color: #000000;
+    display: block;
+    border-radius: 5px;
+    transition: 0.3s ease;
 }
 
-.x1440px .name-desktop {
-    background-color: transparent;
-    letter-spacing: 0.40px;
-    line-height: 16px;
-    margin-top: -1.00px;
-    mix-blend-mode: normal;
-    position: relative;
-    text-align: left;
-    white-space: nowrap;
-    width: fit-content;
+.x1440px #bar1-desktop {
+    transform: translateY(-4px);
 }
 
-.x1440px .highlighter-hqNCvP {
-    margin-bottom: -1810.00px;
-    margin-right: -167.00px;
+.x1440px #bar3-desktop {
+    transform: translateY(4px);
 }
 
-.x1440px .navbar-exp-desktop::-webkit-scrollbar {
+.x1440px .nav {
+    transition: 0.3s ease;
     display: none;
+}
+
+.x1440px .nav ul {
+    padding: 0 22px;
+}
+
+.x1440px .nav li {
+    list-style: none;
+    padding: 12px 0;
+}
+
+.x1440px .nav li a {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.x1440px .nav li a:hover {
+    font-weight: bold;
+}
+
+.x1440px .menu-bg,
+#menu-desktop {
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
+.x1440px .menu-bg {
+    z-index: 1;
     width: 0;
+    height: 0;
+    margin: 30px 0 20px 20px;
+    background: radial-gradient(circle, #ffffff, #efeded);
+    border-radius: 50%;
+    transition: 0.3s ease;
 }
 
-.x1440px .navbar-exp-desktop {
-    align-items: center;
-    background-color: transparent;
-    cursor: pointer;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    gap: 5px;
-    height: auto;
-    overflow-y: scroll;
-    pointer-events: auto;
-    position: relative;
-    transition: all 0.2s ease;
-    width: fit-content;
+.x1440px .change {
+    display: block;
 }
 
-.x1440px .navbar-exp-desktop:hover {
-    transform: translate(0, -5px);
+.x1440px .change .bar {
+    background-color: rgb(0, 0, 0);
 }
 
-.x1440px .exp-desktop {
-    background-color: transparent;
-    cursor: pointer;
-    letter-spacing: 0.40px;
-    line-height: 16px;
-    margin-top: -1.00px;
-    mix-blend-mode: normal;
-    pointer-events: auto;
-    position: relative;
-    text-align: left;
-    transition: all 0.2s ease;
-    white-space: nowrap;
-    width: fit-content;
+.x1440px .change #bar1-desktop {
+    transform: translateY(4px) rotateZ(-45deg);
 }
 
-.x1440px .navbar-proj-mobile {
-    align-items: center;
-    background-color: transparent;
-    cursor: pointer;
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-    height: auto;
-    pointer-events: auto;
-    position: relative;
-    transition: all 0.2s ease;
-    width: fit-content;
+.x1440px .change #bar2-desktop {
+    opacity: 0;
 }
 
-.x1440px .navbar-proj-mobile:hover {
-    transform: translate(0, -5px);
+.x1440px .change #bar3-desktop {
+    transform: translateY(-6px) rotateZ(45deg);
 }
 
-.x1440px .proj-desktop {
-    background-color: transparent;
-    cursor: pointer;
-    letter-spacing: 0.40px;
-    line-height: 16px;
-    margin-top: -1.00px;
-    mix-blend-mode: normal;
-    pointer-events: auto;
-    position: relative;
-    text-align: left;
-    transition: all 0.2s ease;
-    white-space: nowrap;
-    width: fit-content;
-}
-
-.x1440px .highlighter-JglrF9 {
-    margin-bottom: -1810.00px;
-}
-
-.x1440px .navbar-contact-mobile {
-    align-items: center;
-    background-color: transparent;
-    cursor: pointer;
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-    height: auto;
-    pointer-events: auto;
-    position: relative;
-    transition: all 0.2s ease;
-    width: fit-content;
-}
-
-.x1440px .navbar-contact-mobile:hover {
-    transform: translate(0, -5px);
-}
-
-.x1440px .buttons-desktop {
-    align-items: center;
-    background-color: transparent;
-    border-radius: 12px;
-    display: flex;
-    height: auto;
-    mix-blend-mode: normal;
-    overflow: hidden;
-    padding: 12px 24px;
-    position: relative;
-    width: fit-content;
-}
-
-.x1440px .contact-desktop {
-    background-color: transparent;
-    cursor: pointer;
-    letter-spacing: 0.40px;
-    line-height: 16px;
-    margin-top: -1.00px;
-    mix-blend-mode: normal;
-    pointer-events: auto;
-    position: relative;
-    text-align: left;
-    transition: all 0.2s ease;
-    white-space: nowrap;
-    width: fit-content;
-}
-
-.x1440px .highlighter-2BtYEz {
-    margin-bottom: -1810.00px;
-    margin-left: -86.00px;
+.x1440px .change-bg {
+    width: 520px;
+    height: 460px;
+    transform: translate(-60%, -30%);
 }
 
 .x1440px .intro-desktop {
@@ -1479,18 +1038,6 @@ input:focus {
     width: 1px;
 }
 
-.x1440px .rectangle-7 {
-    background: linear-gradient(180deg, rgb(255, 255, 255) 0%, rgb(221.88260346651077, 221.88260346651077, 221.88260346651077) 100%);
-    background-color: transparent;
-    height: 1px;
-    left: 0px;
-    mix-blend-mode: normal;
-    position: absolute;
-    top: 148px;
-    transform: rotate(-90.00deg);
-    width: 1px;
-}
-
 /* screen - 375px */
 
 .x375px {
@@ -1511,210 +1058,99 @@ input:focus {
     top: 0px;
 }
 
-.x375px .navbar-mobile {
-    align-items: flex-start;
-    background-color: transparent;
-    display: flex;
-    gap: 16px;
-    height: auto;
-    position: relative;
-    width: fit-content;
+.x375px #menu-mobile {
+    z-index: 2;
 }
 
-.x375px .navbar-name-mobile {
-    align-items: center;
-    background-color: transparent;
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-    height: auto;
-    position: relative;
-    width: 77px;
-}
-
-.x375px .button-name-mobile {
-    align-items: center;
-    background-color: transparent;
-    border-radius: 12px;
-    display: flex;
-    height: auto;
-    mix-blend-mode: normal;
-    overflow: hidden;
-    padding: 12px 0px;
-    position: relative;
-    width: 75px;
-}
-
-.x375px .name-mobile {
-    background-color: transparent;
-    letter-spacing: 0.40px;
-    line-height: 16px;
-    margin-top: -1.00px;
-    mix-blend-mode: normal;
-    position: relative;
-    text-align: left;
-    white-space: nowrap;
-    width: fit-content;
-}
-
-.x375px .highlighter-LYPa7S {
-    margin-bottom: -1831.00px;
-    margin-left: -696.50px;
-}
-
-.x375px .navbar-exp-mobile::-webkit-scrollbar {
-    display: none;
-    width: 0;
-}
-
-.x375px .navbar-exp-mobile {
-    align-items: center;
-    background-color: transparent;
-    cursor: pointer;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    gap: 5px;
-    height: auto;
-    overflow-y: scroll;
-    pointer-events: auto;
-    position: relative;
-    transition: all 0.2s ease;
+.x375px #menu-bar-mobile {
     width: 45px;
-}
-
-.x375px .navbar-exp-mobile:hover {
-    transform: translate(0, -5px);
-}
-
-.x375px .button-exp-mobile {
-    align-items: center;
-    background-color: transparent;
-    border-radius: 12px;
-    display: flex;
-    height: auto;
-    mix-blend-mode: normal;
-    overflow: hidden;
-    padding: 12px 0px;
-    position: relative;
-    width: 44px;
-}
-
-.x375px .exp-mobile {
-    background-color: transparent;
+    height: 40px;
+    margin: 30px 0 20px 20px;
     cursor: pointer;
-    letter-spacing: 0.40px;
-    line-height: 16px;
-    margin-top: -1.00px;
-    mix-blend-mode: normal;
-    pointer-events: auto;
-    position: relative;
-    text-align: left;
-    transition: all 0.2s ease;
-    white-space: nowrap;
-    width: fit-content;
 }
 
-.x375px .navbar-proj-mobile {
-    align-items: center;
-    background-color: transparent;
-    cursor: pointer;
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-    height: auto;
-    pointer-events: auto;
-    position: relative;
-    transition: all 0.2s ease;
-    width: 54px;
+.x375px .bar-mobile {
+    height: 5px;
+    width: 100%;
+    background-color: #000000;
+    display: block;
+    border-radius: 5px;
+    transition: 0.3s ease;
 }
 
-.x375px .navbar-proj-mobile:hover {
-    transform: translate(0, -5px);
+.x375px #bar1-mobile {
+    transform: translateY(-4px);
 }
 
-.x375px .button-proj-mobile {
-    align-items: center;
-    background-color: transparent;
-    border-radius: 12px;
-    display: flex;
-    height: auto;
-    mix-blend-mode: normal;
-    overflow: hidden;
-    padding: 12px 0px;
-    position: relative;
-    width: fit-content;
+.x375px #bar3-mobile {
+    transform: translateY(4px);
 }
 
-.x375px .proj-mobile {
-    background-color: transparent;
-    cursor: pointer;
-    letter-spacing: 0.40px;
-    line-height: 16px;
-    margin-top: -1.00px;
-    mix-blend-mode: normal;
-    pointer-events: auto;
-    position: relative;
-    text-align: left;
-    transition: all 0.2s ease;
-    white-space: nowrap;
-    width: fit-content;
+.x375px .nav {
+    transition: 0.3s ease;
+    display: none;
 }
 
-.x375px .highlighter-nGlkQw {
-    margin-bottom: -1831.00px;
-    margin-left: -862.00px;
+.x375px .nav ul {
+    padding: 0 22px;
 }
 
-.x375px .navbar-mobile-contact {
-    align-items: center;
-    background-color: transparent;
-    cursor: pointer;
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-    height: auto;
-    pointer-events: auto;
-    position: relative;
-    transition: all 0.2s ease;
-    width: 52px;
+.x375px .nav li {
+    list-style: none;
+    padding: 12px 0;
 }
 
-.x375px .navbar-mobile-contact:hover {
-    transform: translate(0, -5px);
+.x375px .nav li a {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    text-decoration: none;
 }
 
-.x375px .button-mobile-contact {
-    align-items: center;
-    background-color: transparent;
-    border-radius: 12px;
-    display: flex;
-    height: auto;
-    mix-blend-mode: normal;
-    overflow: hidden;
-    padding: 12px 24px 12px 0px;
-    position: relative;
-    width: 51px;
+.x375px .nav li a:hover {
+    font-weight: bold;
 }
 
-.x375px .contact-mobile {
-    background-color: transparent;
-    cursor: pointer;
-    letter-spacing: 0.40px;
-    line-height: 16px;
-    margin-top: -1.00px;
-    mix-blend-mode: normal;
-    pointer-events: auto;
-    position: relative;
-    text-align: left;
-    transition: all 0.2s ease;
-    white-space: nowrap;
-    width: fit-content;
+.x375px .menu-bg-mobile,
+#menu-mobile {
+    top: 0;
+    left: 0;
+    position: absolute;
 }
 
-.x375px .highlighter-xsmZJb {
-    margin-bottom: -1831.00px;
-    margin-left: -933.00px;
+.x375px .menu-bg-mobile {
+    z-index: 1;
+    width: 0;
+    height: 0;
+    margin: 30px 0 20px 20px;
+    background: radial-gradient(circle, #ffffff, #efeded);
+    border-radius: 50%;
+    transition: 0.3s ease;
+}
+
+.x375px .change-mobile {
+    display: block;
+}
+
+.x375px .change-mobile .bar-mobile {
+    background-color: rgb(0, 0, 0);
+}
+
+.x375px .change-mobile #bar1-mobile {
+    transform: translateY(4px) rotateZ(-45deg);
+}
+
+.x375px .change-mobile #bar2-mobile {
+    opacity: 0;
+}
+
+.x375px .change-mobile #bar3-mobile {
+    transform: translateY(-6px) rotateZ(45deg);
+}
+
+.x375px .change-bg-mobile {
+    width: 520px;
+    height: 460px;
+    transform: translate(-60%, -30%);
 }
 
 .x375px .intro-mobile {
@@ -1802,6 +1238,17 @@ input:focus {
     top: -1px;
     white-space: nowrap;
     width: auto;
+}
+
+.x375px .intro-title-mobile {
+    align-self: stretch;
+    background-color: transparent;
+    letter-spacing: 0.40px;
+    line-height: 16px;
+    mix-blend-mode: normal;
+    position: relative;
+    text-align: left;
+    white-space: nowrap;
 }
 
 .x375px .intro-about-mobile {
@@ -1904,10 +1351,6 @@ input:focus {
     top: 0px;
 }
 
-.x375px .rectangle-7-sesLBO {
-    left: 0px;
-}
-
 .x375px .phone-buttons {
     background-color: transparent;
     height: 39px;
@@ -1933,10 +1376,6 @@ input:focus {
     top: -0px;
 }
 
-.x375px .rectangle-7-7Yw8ag {
-    left: 0px;
-}
-
 .x375px .phone-buttons {
     background-color: transparent;
     height: 39px;
@@ -1960,10 +1399,6 @@ input:focus {
 
 .x375px .rectangle-1-AGFwkv {
     top: -0px;
-}
-
-.x375px .rectangle-7-L9dmsk {
-    left: -0px;
 }
 
 .x375px .phone-buttons {
@@ -2399,17 +1834,6 @@ input:focus {
     width: 1px;
 }
 
-.x375px .rectangle-7 {
-    background: linear-gradient(180deg, rgb(255, 255, 255) 0%, rgb(221.88260346651077, 221.88260346651077, 221.88260346651077) 100%);
-    background-color: transparent;
-    height: 1px;
-    mix-blend-mode: normal;
-    position: absolute;
-    top: 148px;
-    transform: rotate(-90.00deg);
-    width: 1px;
-}
-
 .x375px .x02-controls-email-input {
     align-items: center;
     background-color: var(--white);
@@ -2423,13 +1847,15 @@ input:focus {
     position: relative;
 }
 
+/* classes gerais 1 */
+
 input[type=submit] {
-padding: 0px 0px;
-background: none;
-border: 0;
-cursor: pointer;
--webkit-border-radius: 0px;
-border-radius: 0px;
+    padding: 0px 0px;
+    background: none;
+    border: 0;
+    cursor: pointer;
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
 }
 
 @media screen and (max-width: 937px) {
@@ -2442,4 +1868,316 @@ border-radius: 0px;
     .screen.x375px {
         display: none;
     }
+}
+
+/* classes gerais 2 */
+
+.base-list {
+    align-items: flex-start;
+    background-color: transparent;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    gap: 8px;
+    height: auto;
+    justify-content: center;
+    position: relative;
+}
+
+.ano-ano {
+    align-self: stretch;
+    background-color: transparent;
+    letter-spacing: 0.40px;
+    line-height: 16px;
+    margin-top: -1.00px;
+    mix-blend-mode: normal;
+    position: relative;
+    text-align: left;
+    white-space: nowrap;
+}
+
+.cargo {
+    align-self: stretch;
+    background-color: transparent;
+    letter-spacing: 0.40px;
+    line-height: 16px;
+    mix-blend-mode: normal;
+    position: relative;
+    text-align: left;
+    white-space: nowrap;
+}
+
+.empresa {
+    align-self: stretch;
+    background-color: transparent;
+    letter-spacing: 0.40px;
+    line-height: 16px;
+    mix-blend-mode: normal;
+    position: relative;
+    text-align: left;
+    white-space: nowrap;
+}
+
+.descricao {
+    align-self: stretch;
+    background-color: transparent;
+    letter-spacing: 0.40px;
+    line-height: 16px;
+    mix-blend-mode: normal;
+    position: relative;
+    text-align: left;
+}
+
+.link {
+    align-items: center;
+    background-color: transparent;
+    display: flex;
+    gap: 4px;
+    height: auto;
+    justify-content: center;
+    position: relative;
+    width: fit-content;
+}
+
+.veja {
+    background-color: transparent;
+    cursor: pointer;
+    letter-spacing: 0.40px;
+    line-height: 16px;
+    margin-top: -1.00px;
+    mix-blend-mode: normal;
+    position: relative;
+    text-align: left;
+    white-space: nowrap;
+    width: fit-content;
+}
+
+.ver-tudo {
+    align-self: stretch;
+    background-color: transparent;
+    cursor: pointer;
+    letter-spacing: 0.40px;
+    line-height: 16px;
+    mix-blend-mode: normal;
+    position: relative;
+    text-align: left;
+    white-space: nowrap;
+}
+
+/* iphone design */
+
+.arrows-large {
+    background-color: transparent;
+    height: 16px;
+    min-width: 16px;
+    overflow: hidden;
+    position: relative;
+}
+
+.base-arrows {
+    background-color: transparent;
+    height: 16px;
+    left: 0px;
+    position: absolute;
+    top: 0px;
+    width: 16px;
+}
+
+.base-images-placeholder {
+    -webkit-backdrop-filter: blur(24.459135055541992px) brightness(100%);
+    backdrop-filter: blur(24.459135055541992px) brightness(100%);
+    background-color: var(--agnostic-color);
+    border-radius: 16px;
+    height: 125px;
+    min-width: 145px;
+    mix-blend-mode: normal;
+    overflow: hidden;
+    position: relative;
+}
+
+.device-i-phone-12 {
+    background-color: transparent;
+    height: 110px;
+    left: 32px;
+    position: relative;
+    top: 19px;
+    width: 82px;
+}
+
+.ellipse-1 {
+    background-color: var(--licorice);
+    border-radius: 1.5px/1.51px;
+    height: 3px;
+    left: 28px;
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 1px;
+    width: 3px;
+}
+
+.ellipse-3 {
+    background: linear-gradient(180deg, rgb(46.000001057982445, 67.00000360608101, 108.00000116229057) 0%, rgba(44.62499924004078, 44.62499924004078, 44.62499924004078, 0) 50%, rgb(52.81067579984665, 89.26493927836418, 160.43749898672104) 84.89583134651184%, rgb(75.86250364780426, 140.67076206207275, 216.75000607967377) 100%);
+    background-color: transparent;
+    border-radius: 0.66px;
+    box-shadow: inset 0px 0px 0.3702441155910492px #b2ecff4c;
+    height: 1px;
+    left: 29px;
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 2px;
+    transform: rotate(-30.01deg);
+    width: 1px;
+}
+
+.eyebrow {
+    background-color: transparent;
+    height: 6px;
+    left: 20px;
+    position: absolute;
+    top: 4px;
+    width: 41px;
+}
+
+.frame {
+    background-color: var(--white);
+    border: 0.09605389088392258px solid;
+    border-color: var(--white);
+    border-radius: 12.22px;
+    box-shadow: inset 0px 0px 0px 3.650047779083252px #030303, inset 0px 0px 0px 1.3447544574737549px #ffffffb0, inset 0px 0px 0px 0.6723772287368774px #f6f6f6, inset 0px 0px 0px 0.3842155635356903px #000000;
+    height: 120px;
+    left: -0px;
+    mix-blend-mode: normal;
+    overflow: hidden;
+    position: absolute;
+    top: -1px;
+    width: 83px;
+}
+
+.frame-4495 {
+    align-items: flex-start;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5368622541427612px;
+    height: auto;
+    left: 6px;
+    position: relative;
+    top: 64px;
+    width: 60px;
+}
+
+.frame-4699 {
+    align-items: flex-start;
+    align-self: stretch;
+    background-color: transparent;
+    display: flex;
+    gap: 32px;
+    height: auto;
+    mix-blend-mode: normal;
+    position: relative;
+}
+
+.holes {
+    background-color: transparent;
+    height: 110px;
+    left: 1px;
+    position: absolute;
+    top: 0px;
+    width: 81px;
+}
+
+.rectangle-1 {
+    background-color: transparent;
+    height: 6px;
+    left: -0px;
+    mix-blend-mode: normal;
+    position: absolute;
+    width: 41px;
+}
+
+.rectangle-12 {
+    background: linear-gradient(180deg, rgb(0, 0, 0) 0%, rgb(255, 255, 255) 21.526703238487244%, rgb(255, 255, 255) 75.69557428359985%, rgba(0, 0, 0, 0.9800000190734863) 100%);
+    background-color: transparent;
+    border-radius: 0.3842155635356903px 0px 0px 0.3842155635356903px;
+    box-shadow: inset -0.07684311270713806px 0px 0.03842155635356903px 0.07684311270713806px #000000, inset 0.07684311270713806px 0.7684311270713806px 0.03842155635356903px 0.03842155635356903px #000000cc;
+    height: 20px;
+    left: 81px;
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 16px;
+    transform: rotate(180.00deg);
+    width: 1px;
+}
+
+.rectangle-2 {
+    background-color: var(--licorice);
+    border: 0.1851220577955246px solid;
+    border-color: transparent;
+    border-image: linear-gradient(to bottom, rgb(0, 0, 0), rgb(76.50000303983688, 76.50000303983688, 76.50000303983688) 51.5625%, rgb(0, 0, 0) 100%) 1;
+    border-radius: 0.37px;
+    height: 1px;
+    left: 16px;
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 2px;
+    width: 9px;
+}
+
+.rectangle-3 {
+    background: linear-gradient(180deg, rgb(255, 255, 255) 0%, rgb(221.88260346651077, 221.88260346651077, 221.88260346651077) 100%);
+    background-color: transparent;
+    height: 1px;
+    left: 64px;
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 0px;
+    width: 1px;
+}
+
+.rectangle-4 {
+    background: linear-gradient(180deg, rgb(255, 255, 255) 0%, rgb(221.88260346651077, 221.88260346651077, 221.88260346651077) 100%);
+    background-color: transparent;
+    height: 1px;
+    left: 79px;
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 16px;
+    transform: rotate(90.00deg);
+    width: 1px;
+}
+
+.rectangle-5 {
+    background: linear-gradient(180deg, rgb(255, 255, 255) 0%, rgb(221.88260346651077, 221.88260346651077, 221.88260346651077) 100%);
+    background-color: transparent;
+    height: 1px;
+    left: 0px;
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 16px;
+    transform: rotate(-90.00deg);
+    width: 1px;
+}
+
+.screeni-phone12 {
+    background-color: var(--white);
+    border-radius: 4.61px;
+    height: 159px;
+    left: 4px;
+    mix-blend-mode: normal;
+    overflow: hidden;
+    position: absolute;
+    top: 4px;
+    width: 73px;
+}
+
+.imagemprojeto {
+    align-self: stretch;
+    background-color: transparent;
+    letter-spacing: 0.40px;
+    line-height: 16px;
+    margin-top: -0.19px;
+    mix-blend-mode: normal;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
 }
