@@ -863,6 +863,7 @@ input:focus {
     display: flex;
     height: auto;
     position: relative;
+    gap: 10px;
 }
 
 .x1440px .contact-links-list-desktop {
@@ -1785,6 +1786,7 @@ input:focus {
     flex-direction: column;
     height: auto;
     position: relative;
+    row-gap: 10px;
 }
 
 .x375px .lists-primary {
