@@ -367,7 +367,7 @@ input:focus {
     height: auto;
     left: 0px;
     position: relative;
-    top: 50px;
+    top: auto;
     width: 560px;
 }
 
