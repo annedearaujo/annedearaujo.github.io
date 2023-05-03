@@ -1248,7 +1248,7 @@ input:focus {
     line-height: 16px;
     mix-blend-mode: normal;
     position: relative;
-    text-align: left;
+    text-align: center;
     white-space: nowrap;
 }
 
@@ -1263,7 +1263,10 @@ input:focus {
 }
 
 .x375px .game-link-mobile {
-    margin-right: -1.00px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
 }
 
 .x375px .game-button-mobile {
