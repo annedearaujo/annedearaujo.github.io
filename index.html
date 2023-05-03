@@ -37,6 +37,8 @@
 </head>
 
 <body style="margin: 0; background: #ffffff">
+    <h2>Teste 🌙</h2>
+    <button onClick="DarkMode()">🌙</button>
 
     <!-- Mobile screen -->
     <input type="hidden" id="anPageName1" name="page" value="375px" />
@@ -692,6 +694,12 @@
         }
     </script>
     <!-- end of Desktop screen -->
+    <script>
+        function DarkMode() {
+      var element = document.body;
+      element.classList.toggle("dark-mode");
+    }
+    </script>
 
 </body>
 
