@@ -359,7 +359,7 @@ input:focus {
 }
 
 .x1440px .intro-base-desktop {
-    align-items: flex-start;
+    align-items: center;
     background-color: transparent;
     display: flex;
     flex-direction: column;
@@ -1162,7 +1162,7 @@ input:focus {
 }
 
 .x375px .intro-base-mobile {
-    align-items: flex-start;
+    align-items: center;
     background-color: transparent;
     display: flex;
     flex-direction: column;
