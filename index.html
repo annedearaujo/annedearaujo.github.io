@@ -681,7 +681,7 @@
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.3/dist/sweetalert2.all.min.js"></script>
     <script>
         function redirectPage() {
-            if (document.getElementsByName("nome").value != null && document.getElementsByName("e-mail").value != null && document.getElementsByName("digitesuamensagem").value != null) {
+            if (document.getElementsByClassName("input-nome-desktop").value != null && document.getElementsByClassName("input-email-desktop").value != null && document.getElementsByClassName("input-txt-desktop").value != null) {
                 window.location.href = "https://ennaraujo.github.io/home/submitted";
             } else {
                 Swal.fire(
