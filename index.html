@@ -681,14 +681,17 @@
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.3/dist/sweetalert2.all.min.js"></script>
     <script>
         function redirectPage() {
-            if (document.getElementsByClassName("input-nome-desktop").value != null && document.getElementsByClassName("input-email-desktop").value != null && document.getElementsByClassName("input-txt-desktop").value != null) {
+            var nome = document.getElementsByClassName("input-nome-desktop")[0].value;
+            var email = document.getElementsByClassName("input-email-desktop")[0].value;
+            var texto = document.getElementsByClassName("input-txt-desktop")[0].value;
+
+            if (nome !== "" && email !== "" && texto !== "") {
                 window.location.href = "https://ennaraujo.github.io/home/submitted";
             } else {
                 Swal.fire(
                     'Ops!',
                     'Preencha todos os campos para enviar',
-                    'error'
-                )
+                    'error');
             }
         }
     </script>
