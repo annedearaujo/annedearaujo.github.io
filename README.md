@@ -9,6 +9,18 @@ Este é o repositório do meu site de portfólio, onde apresento informações s
 - CSS;
 - JavaScript.
 
+### Bibliotecas e Recursos Externos
+
+O projeto também faz uso das seguintes bibliotecas e recursos externos:
+
+- [jQuery](https://jquery.com/): Uma biblioteca JavaScript amplamente utilizada para simplificar a manipulação do DOM e interações com o usuário.
+- [Timeline.js](https://animaapp.s3.amazonaws.com/js/timeline.js): Biblioteca para criar linhas do tempo interativas.
+- [Hotspots.js](hotspots.js): Um script personalizado para adicionar hotspots interativos ao site.
+- [Overrides.js](overrides.js): Um script personalizado que faz substituições e ajustes específicos no comportamento do site.
+- [Meyer Reset](https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css): Um conjunto de estilos CSS para redefinir e padronizar estilos HTML em todos os navegadores.
+- [Fonte Epilogue](https://fonts.googleapis.com/css?family=Epilogue:400): Uma fonte importada para o design do site.
+- [SweetAlert2](https://cdn.jsdelivr.net/npm/sweetalert2@11.7.3/dist/sweetalert2.min.css): Um estilo CSS para janelas modais e caixas de diálogo interativas.
+
 ## Conteúdo
 
 O site contém as seguintes seções:
