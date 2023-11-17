@@ -1,4 +1,4 @@
-# home
+# annedearaujo
 Portfólio pessoal
 
 Este é o repositório do meu site de portfólio, onde apresento informações sobre mim, minha experiência, projetos e formas de contato.
