@@ -132,6 +132,16 @@
     }
 }
 
+@keyframes bounce {
+    from {
+        transform: translateY(0px);
+    }
+
+    to {
+        transform: translateY(-10px);
+    }
+}
+
 .animate-nodelay {
     animation-delay: 0s;
 }
@@ -398,7 +408,9 @@ input:focus {
     object-fit: cover;
     position: absolute;
     top: 7px;
-    width: 67px;
+    width: 150px;
+    border-radius: 50%;
+    animation: bounce 1s infinite alternate;
 }
 
 .x1440px .status-base-desktop {
@@ -1202,7 +1214,9 @@ input:focus {
     object-fit: cover;
     position: absolute;
     top: 7px;
-    width: 67px;
+    width: 150px;
+    border-radius: 50%;
+    animation: bounce 1s infinite alternate;
 }
 
 .x375px .status-base-mobile {
