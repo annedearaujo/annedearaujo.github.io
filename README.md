@@ -32,12 +32,12 @@ O site contém as seguintes seções:
 
 ## Como Visualizar o Site
 
-Você pode acessar o site do meu portfólio online em https://annedearaujo.github.io/home/.
+Você pode acessar o site do meu portfólio online em https://annedearaujo.github.io/.
 
 Se preferir executá-lo localmente, siga estas etapas:
 
 1. Clone o repositório:
-git clone https://github.com/annedearaujo/home.git
+git clone https://github.com/annedearaujo/annedearaujo.github.io.git
 
 
 2. Navegue até a pasta do projeto:
