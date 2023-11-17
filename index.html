@@ -16,24 +16,11 @@
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="default">
     <meta name="apple-mobile-web-app-title" content="Anne Araújo 📎">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
-    <script src="https://animaapp.s3.amazonaws.com/js/timeline.js"></script>
-    <script id="anima-hotspots-script" src="hotspots.js"></script>
-    <script id="anima-overrides-script" src="overrides.js"></script>
     <link rel="stylesheet" type="text/css" href="css/styleguide.css" />
     <link rel="stylesheet" type="text/css" href="css/globals.css" />
     <link rel="stylesheet" type="text/css" href="css/styles.css" />
 
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-D01LSK9WD9"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
 
-        gtag('config', 'G-D01LSK9WD9');
-    </script>
-    <!-- end of Google tag (gtag.js) -->
 </head>
 
 <body style="margin: 0;">
@@ -41,6 +28,7 @@
     <!-- Mobile screen -->
     <input type="hidden" id="anPageName1" name="page" value="375px" />
     <div class="x375px screen ">
+        <header>
         <div id="menu-mobile">
             <div id="menu-bar-mobile" onclick="menuOnClickM()">
                 <div id="bar1-mobile" class="bar-mobile epilogue-normal-black-16px"></div>
@@ -82,6 +70,8 @@
                 </div>
             </div>
         </div>
+        </header>
+        <main>
         <div class="exp-base-mobile" id="exp">
             <div class="exp-title-mobile epilogue-normal-black-16px">onde estive</div>
             <div class="exp-one-mobile">
@@ -335,6 +325,7 @@
                 </div>
             </div>
         </div>
+        </main>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.3/dist/sweetalert2.all.min.js"></script>
@@ -364,6 +355,7 @@
     <!-- Desktop screen -->
     <input type="hidden" id="anPageName2" name="page" value="1440px" />
     <div class="x1440px screen">
+        <header>
         <div id="menu-desktop">
             <div id="menu-bar-desktop" onclick="menuOnClickD()">
                 <div id="bar1-desktop" class="bar epilogue-normal-black-16px"></div>
@@ -408,6 +400,8 @@
                 </div>
             </div>
         </div>
+        </header>
+        <main>
         <div class="exp-base-desktop" id="experience">
             <div class="exp-title-desktop epilogue-normal-black-16px">onde estive</div>
             <div class="lists-primary">
@@ -666,8 +660,25 @@
                 </div>
             </div>
         </div>
+        </main>
     </div>
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="https://animaapp.s3.amazonaws.com/js/timeline.js"></script>
+    <script id="anima-hotspots-script" src="hotspots.js"></script>
+    <script id="anima-overrides-script" src="overrides.js"></script>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-D01LSK9WD9"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-D01LSK9WD9');
+    </script>
+    <!-- end of Google tag (gtag.js) -->
+    
     <!-- Hamburger menu -->
     <script id="rendered-js">
         function menuOnClickD() {
